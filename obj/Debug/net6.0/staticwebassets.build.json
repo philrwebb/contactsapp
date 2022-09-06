@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UjSCFlFKwUrUy5OBdT3SM90plpfYzuWXCpb1oG7qcs4=",
+  "Source": "contactsapp",
+  "BasePath": "_content/contactsapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
