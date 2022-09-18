@@ -1,0 +1,7 @@
+bin   
+logs
+obj
+obj/staticwebassets.pack.sentinel
+obj/staticwebassets.pack.sentinel
+obj/Debug/net6.0/contactsapp.assets.cache
+obj/Debug/net6.0/contactsapp.GeneratedMSBuildEditorConfig.editorconfig
