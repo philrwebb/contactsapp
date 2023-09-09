@@ -1,4 +1,4 @@
-namespace Contacts.Services
+namespace Sustain.Services
 {
     public class PaginationMetadata
     {

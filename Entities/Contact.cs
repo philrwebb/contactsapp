@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Contacts.Entities
+namespace Sustain.Entities
 {
     public class Contact
     {

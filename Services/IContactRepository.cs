@@ -1,6 +1,6 @@
-using Contacts.Entities;
+using Sustain.Entities;
 
-namespace Contacts.Services
+namespace Sustain.Services
 {
     public interface IContactRepository
     {

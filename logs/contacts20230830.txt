@@ -1,0 +1,1536 @@
+2023-08-30 13:20:35.770 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 13:20:36.804 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 13:20:37.020 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 13:20:37.024 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 13:20:37.025 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 13:20:37.025 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 13:20:37.123 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 13:21:45.076 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 13:21:46.339 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 13:21:46.458 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:46.473 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:47.950 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:47.966 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-30 13:21:47.977 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (12ms).
+2023-08-30 13:21:47.995 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-30 13:21:48.078 +08:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-30 13:21:48.082 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.089 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.096 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-30 13:21:48.097 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-30 13:21:48.097 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.099 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.101 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-30 13:21:48.161 +08:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-30 13:21:48.161 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.163 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.165 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.166 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.166 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-30 13:21:48.167 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-30 13:21:48.167 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-30 13:21:48.173 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-30 13:21:48.173 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.174 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.174 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-30 13:21:48.174 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-30 13:21:48.174 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.175 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.175 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-30 13:21:48.178 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-30 13:21:48.179 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.179 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.239 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 13:21:48.240 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-30 13:21:48.240 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.240 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.240 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-30 13:21:48.299 +08:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-30 13:21:48.303 +08:00 [DBG] A data reader was disposed.
+2023-08-30 13:21:48.303 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.303 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.322 +08:00 [INF] Applying migration '20230830052037_metermig5'.
+2023-08-30 13:21:48.373 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.374 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.376 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 13:21:48.389 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 13:21:48.390 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-30 13:21:48.390 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-30 13:21:48.391 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230830052037_metermig5', N'6.0.8');
+2023-08-30 13:21:48.420 +08:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230830052037_metermig5', N'6.0.8');
+2023-08-30 13:21:48.422 +08:00 [DBG] Committing transaction.
+2023-08-30 13:21:48.444 +08:00 [DBG] Committed transaction.
+2023-08-30 13:21:48.446 +08:00 [DBG] Disposing transaction.
+2023-08-30 13:21:48.447 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.447 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:21:48.450 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 13:22:28.233 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 13:22:28.464 +08:00 [DBG] Hosting starting
+2023-08-30 13:22:28.687 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 13:22:28.733 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 13:22:28.734 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 13:22:28.734 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 13:22:28.735 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 13:22:28.737 +08:00 [INF] Hosting environment: Development
+2023-08-30 13:22:28.738 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 13:22:28.738 +08:00 [DBG] Hosting started
+2023-08-30 13:22:30.447 +08:00 [INF] Application is shutting down...
+2023-08-30 13:22:30.453 +08:00 [DBG] Hosting stopping
+2023-08-30 13:22:30.492 +08:00 [DBG] Hosting stopped
+2023-08-30 13:22:44.446 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 13:22:44.618 +08:00 [DBG] Hosting starting
+2023-08-30 13:22:44.805 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 13:22:44.844 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 13:22:44.845 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 13:22:44.845 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 13:22:44.845 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 13:22:44.847 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 13:22:44.850 +08:00 [INF] Hosting environment: Development
+2023-08-30 13:22:44.851 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 13:22:44.852 +08:00 [DBG] Hosting started
+2023-08-30 13:22:50.605 +08:00 [DBG] Connection id "0HMT934JOK0T5" accepted.
+2023-08-30 13:22:50.628 +08:00 [DBG] Connection id "0HMT934JOK0T6" accepted.
+2023-08-30 13:22:50.630 +08:00 [DBG] Connection id "0HMT934JOK0T5" started.
+2023-08-30 13:22:50.632 +08:00 [DBG] Connection id "0HMT934JOK0T6" started.
+2023-08-30 13:22:50.870 +08:00 [DBG] Connection 0HMT934JOK0T5 established using the following protocol: "Tls12"
+2023-08-30 13:22:50.869 +08:00 [DBG] Connection 0HMT934JOK0T6 established using the following protocol: "Tls12"
+2023-08-30 13:22:51.042 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:51.042 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:22:51.081 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 13:22:51.085 +08:00 [DBG] Connection id "0HMT934JOK0T5" completed keep alive response.
+2023-08-30 13:22:51.105 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 64.1777ms
+2023-08-30 13:22:51.150 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:51.248 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:22:51.249 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:51.252 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:51.252 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:51.464 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:22:51.477 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:22:51.479 +08:00 [DBG] Connection id "0HMT934JOK0T6" completed keep alive response.
+2023-08-30 13:22:51.490 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 465.4729ms
+2023-08-30 13:22:51.519 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:51.522 +08:00 [DBG] Connection id "0HMT934JOK0T6" completed keep alive response.
+2023-08-30 13:22:51.523 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.7568ms
+2023-08-30 13:22:51.610 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:51.610 +08:00 [DBG] Connection id "0HMT934JOK0T5" completed keep alive response.
+2023-08-30 13:22:51.611 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:51.612 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:51.612 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 462.9680ms
+2023-08-30 13:22:51.626 +08:00 [DBG] Connection id "0HMT934JOK0T6" completed keep alive response.
+2023-08-30 13:22:51.626 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.0675ms
+2023-08-30 13:22:53.377 +08:00 [DBG] Connection id "0HMT934JOK0T5" received FIN.
+2023-08-30 13:22:53.375 +08:00 [DBG] Connection id "0HMT934JOK0T6" received FIN.
+2023-08-30 13:22:53.407 +08:00 [DBG] Connection id "0HMT934JOK0T6" disconnecting.
+2023-08-30 13:22:53.407 +08:00 [DBG] Connection id "0HMT934JOK0T5" disconnecting.
+2023-08-30 13:22:53.412 +08:00 [DBG] Connection id "0HMT934JOK0T5" sending FIN because: "The client closed the connection."
+2023-08-30 13:22:53.412 +08:00 [DBG] Connection id "0HMT934JOK0T6" sending FIN because: "The client closed the connection."
+2023-08-30 13:22:53.463 +08:00 [DBG] Connection id "0HMT934JOK0T5" stopped.
+2023-08-30 13:22:53.463 +08:00 [DBG] Connection id "0HMT934JOK0T6" stopped.
+2023-08-30 13:22:53.476 +08:00 [DBG] Connection id "0HMT934JOK0T7" accepted.
+2023-08-30 13:22:53.478 +08:00 [DBG] Connection id "0HMT934JOK0T7" started.
+2023-08-30 13:22:53.495 +08:00 [DBG] Connection id "0HMT934JOK0T8" accepted.
+2023-08-30 13:22:53.495 +08:00 [DBG] Connection id "0HMT934JOK0T8" started.
+2023-08-30 13:22:53.539 +08:00 [DBG] Connection 0HMT934JOK0T7 established using the following protocol: "Tls12"
+2023-08-30 13:22:53.539 +08:00 [DBG] Connection 0HMT934JOK0T8 established using the following protocol: "Tls12"
+2023-08-30 13:22:53.550 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:53.551 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:53.553 +08:00 [DBG] Connection id "0HMT934JOK0T7" completed keep alive response.
+2023-08-30 13:22:53.554 +08:00 [DBG] Connection id "0HMT934JOK0T8" completed keep alive response.
+2023-08-30 13:22:53.555 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.9735ms
+2023-08-30 13:22:53.555 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.3703ms
+2023-08-30 13:22:53.556 +08:00 [DBG] Connection id "0HMT934JOK0T9" accepted.
+2023-08-30 13:22:53.557 +08:00 [DBG] Connection id "0HMT934JOK0TA" accepted.
+2023-08-30 13:22:53.557 +08:00 [DBG] Connection id "0HMT934JOK0T9" started.
+2023-08-30 13:22:53.557 +08:00 [DBG] Connection id "0HMT934JOK0TA" started.
+2023-08-30 13:22:53.562 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:53.562 +08:00 [DBG] Connection id "0HMT934JOK0T8" completed keep alive response.
+2023-08-30 13:22:53.562 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4397ms
+2023-08-30 13:22:53.562 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:53.563 +08:00 [DBG] Connection id "0HMT934JOK0T7" completed keep alive response.
+2023-08-30 13:22:53.563 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4740ms
+2023-08-30 13:22:53.584 +08:00 [DBG] Connection 0HMT934JOK0TA established using the following protocol: "Tls12"
+2023-08-30 13:22:53.592 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:53.593 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:53.594 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:53.605 +08:00 [DBG] Connection 0HMT934JOK0T9 established using the following protocol: "Tls12"
+2023-08-30 13:22:53.627 +08:00 [DBG] Connection id "0HMT934JOK0T8" completed keep alive response.
+2023-08-30 13:22:53.628 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 36.4179ms
+2023-08-30 13:22:53.630 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:53.630 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:53.631 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:53.636 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:22:53.636 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.7125ms
+2023-08-30 13:22:55.375 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:55.385 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:22:55.387 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 13.1405ms
+2023-08-30 13:22:55.437 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:55.438 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:55.438 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:55.469 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:22:55.470 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 33.1247ms
+2023-08-30 13:22:55.617 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:55.619 +08:00 [DBG] Connection id "0HMT934JOK0T7" completed keep alive response.
+2023-08-30 13:22:55.619 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.5894ms
+2023-08-30 13:22:56.140 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:56.144 +08:00 [DBG] Connection id "0HMT934JOK0T7" completed keep alive response.
+2023-08-30 13:22:56.144 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.6224ms
+2023-08-30 13:22:56.193 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:22:56.195 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:22:56.196 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.5792ms
+2023-08-30 13:22:56.244 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:22:56.244 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:22:56.245 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:22:56.277 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:22:56.279 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 34.7761ms
+2023-08-30 13:23:22.420 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 79
+2023-08-30 13:23:22.439 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 13:23:22.448 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 13:23:22.451 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:23:22.456 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 13:23:22.456 +08:00 [INF] CORS policy execution successful.
+2023-08-30 13:23:22.462 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 13:23:22.470 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:23:22.538 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 13:23:22.541 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 13:23:22.541 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 13:23:22.542 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 13:23:22.542 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 13:23:22.543 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 13:23:22.544 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:23:22.712 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 13:23:22.922 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:23:22.929 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:23:22.932 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 13:23:22.933 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:23:22.934 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:23:22.941 +08:00 [DBG] Connection id "0HMT934JOK0T9", Request id "0HMT934JOK0T9:00000007": started reading request body.
+2023-08-30 13:23:22.942 +08:00 [DBG] Connection id "0HMT934JOK0T9", Request id "0HMT934JOK0T9:00000007": done reading request body.
+2023-08-30 13:23:23.096 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:23:23.096 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:23:23.096 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:23:23.123 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 575.3267ms
+2023-08-30 13:23:23.126 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:23:23.127 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: The field of type System.Int32 must be a string, array or ICollection type.
+   at System.ComponentModel.DataAnnotations.MaxLengthAttribute.IsValid(Object value)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.DataAnnotations.DataAnnotationsModelValidator.Validate(ModelValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitSimpleType()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-30 13:23:23.183 +08:00 [DBG] Connection id "0HMT934JOK0T9" completed keep alive response.
+2023-08-30 13:23:23.186 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 79 - 500 - text/plain;+charset=utf-8 766.5999ms
+2023-08-30 13:23:50.982 +08:00 [DBG] Connection id "0HMT934JOK0T8" received FIN.
+2023-08-30 13:23:50.982 +08:00 [DBG] Connection id "0HMT934JOK0T7" received FIN.
+2023-08-30 13:23:50.982 +08:00 [DBG] Connection id "0HMT934JOK0T9" received FIN.
+2023-08-30 13:23:50.983 +08:00 [DBG] Connection id "0HMT934JOK0TA" received FIN.
+2023-08-30 13:23:50.990 +08:00 [DBG] Connection id "0HMT934JOK0TA" sending FIN because: "The client closed the connection."
+2023-08-30 13:23:50.991 +08:00 [DBG] Connection id "0HMT934JOK0T8" sending FIN because: "The client closed the connection."
+2023-08-30 13:23:50.991 +08:00 [DBG] Connection id "0HMT934JOK0T7" disconnecting.
+2023-08-30 13:23:50.992 +08:00 [DBG] Connection id "0HMT934JOK0T9" sending FIN because: "The client closed the connection."
+2023-08-30 13:23:50.994 +08:00 [DBG] Connection id "0HMT934JOK0TA" disconnecting.
+2023-08-30 13:23:50.994 +08:00 [DBG] Connection id "0HMT934JOK0T8" disconnecting.
+2023-08-30 13:23:50.994 +08:00 [DBG] Connection id "0HMT934JOK0T9" disconnecting.
+2023-08-30 13:23:50.998 +08:00 [DBG] Connection id "0HMT934JOK0T8" stopped.
+2023-08-30 13:23:50.998 +08:00 [DBG] Connection id "0HMT934JOK0TA" stopped.
+2023-08-30 13:23:50.998 +08:00 [DBG] Connection id "0HMT934JOK0T7" stopped.
+2023-08-30 13:23:51.001 +08:00 [DBG] Connection id "0HMT934JOK0T7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:23:51.004 +08:00 [DBG] Connection id "0HMT934JOK0T9" stopped.
+2023-08-30 13:28:40.586 +08:00 [DBG] Connection id "0HMT934JOK0TB" accepted.
+2023-08-30 13:28:40.587 +08:00 [DBG] Connection id "0HMT934JOK0TB" started.
+2023-08-30 13:28:40.619 +08:00 [DBG] Connection 0HMT934JOK0TB established using the following protocol: "Tls12"
+2023-08-30 13:28:40.622 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.623 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.624 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.639 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.640 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.641 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.641 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 19.0938ms
+2023-08-30 13:28:40.641 +08:00 [DBG] Connection id "0HMT934JOK0TC" accepted.
+2023-08-30 13:28:40.641 +08:00 [DBG] Connection id "0HMT934JOK0TC" started.
+2023-08-30 13:28:40.643 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.643 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.643 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.645 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.646 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.646 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.646 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 2.9711ms
+2023-08-30 13:28:40.649 +08:00 [DBG] Connection id "0HMT934JOK0TD" accepted.
+2023-08-30 13:28:40.649 +08:00 [DBG] Connection id "0HMT934JOK0TD" started.
+2023-08-30 13:28:40.655 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.655 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.656 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.656 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.657 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.657 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.657 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 1.5858ms
+2023-08-30 13:28:40.663 +08:00 [DBG] Connection id "0HMT934JOK0TE" accepted.
+2023-08-30 13:28:40.665 +08:00 [DBG] Connection id "0HMT934JOK0TE" started.
+2023-08-30 13:28:40.672 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.672 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.673 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.674 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.675 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.675 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.675 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 2.7615ms
+2023-08-30 13:28:40.685 +08:00 [DBG] Connection 0HMT934JOK0TC established using the following protocol: "Tls12"
+2023-08-30 13:28:40.689 +08:00 [DBG] Connection id "0HMT934JOK0TF" accepted.
+2023-08-30 13:28:40.721 +08:00 [DBG] Connection id "0HMT934JOK0TF" started.
+2023-08-30 13:28:40.722 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.722 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.722 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.728 +08:00 [DBG] Connection 0HMT934JOK0TE established using the following protocol: "Tls12"
+2023-08-30 13:28:40.733 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.733 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.734 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7822ms
+2023-08-30 13:28:40.750 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.750 +08:00 [DBG] Connection 0HMT934JOK0TD established using the following protocol: "Tls12"
+2023-08-30 13:28:40.751 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.751 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:40.751 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2548ms
+2023-08-30 13:28:40.751 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.751 +08:00 [DBG] Connection id "0HMT934JOK0TC" completed keep alive response.
+2023-08-30 13:28:40.751 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 29.4262ms
+2023-08-30 13:28:40.756 +08:00 [DBG] Connection id "0HMT934JOK0TG" accepted.
+2023-08-30 13:28:40.756 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.757 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.757 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7581ms
+2023-08-30 13:28:40.758 +08:00 [DBG] Connection id "0HMT934JOK0TG" started.
+2023-08-30 13:28:40.771 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:28:40.771 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:28:40.771 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.771 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:28:40.772 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:28:40.772 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:40.772 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 1.1281ms
+2023-08-30 13:28:40.777 +08:00 [DBG] Connection 0HMT934JOK0TF established using the following protocol: "Tls12"
+2023-08-30 13:28:40.789 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.789 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.789 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5970ms
+2023-08-30 13:28:40.795 +08:00 [DBG] Connection 0HMT934JOK0TG established using the following protocol: "Tls12"
+2023-08-30 13:28:40.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.802 +08:00 [DBG] Connection id "0HMT934JOK0TG" completed keep alive response.
+2023-08-30 13:28:40.803 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6299ms
+2023-08-30 13:28:40.849 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.853 +08:00 [DBG] Connection id "0HMT934JOK0TB" completed keep alive response.
+2023-08-30 13:28:40.855 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.6164ms
+2023-08-30 13:28:40.865 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:40.866 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:40.866 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.1815ms
+2023-08-30 13:28:40.874 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:40.876 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:40.877 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:40.997 +08:00 [DBG] Connection id "0HMT934JOK0TC" completed keep alive response.
+2023-08-30 13:28:40.998 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.6051ms
+2023-08-30 13:28:41.001 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:41.001 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:41.001 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:41.022 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:41.023 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.7065ms
+2023-08-30 13:28:41.026 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:41.026 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:41.027 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:41.041 +08:00 [DBG] Connection id "0HMT934JOK0TC" completed keep alive response.
+2023-08-30 13:28:41.042 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 15.4726ms
+2023-08-30 13:28:41.051 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:41.051 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:41.051 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:41.058 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:41.058 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.1077ms
+2023-08-30 13:28:41.075 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:41.075 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:41.075 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:41.093 +08:00 [DBG] Connection id "0HMT934JOK0TC" completed keep alive response.
+2023-08-30 13:28:41.093 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 18.2229ms
+2023-08-30 13:28:41.095 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:28:41.095 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:28:41.095 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:28:41.128 +08:00 [DBG] Connection id "0HMT934JOK0TE" completed keep alive response.
+2023-08-30 13:28:41.129 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 34.1404ms
+2023-08-30 13:28:42.333 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:42.337 +08:00 [DBG] Connection id "0HMT934JOK0TG" completed keep alive response.
+2023-08-30 13:28:42.338 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.4238ms
+2023-08-30 13:28:42.341 +08:00 [DBG] Connection id "0HMT934JOK0TH" accepted.
+2023-08-30 13:28:42.342 +08:00 [DBG] Connection id "0HMT934JOK0TH" started.
+2023-08-30 13:28:42.342 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:42.342 +08:00 [DBG] Connection id "0HMT934JOK0TG" completed keep alive response.
+2023-08-30 13:28:42.343 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5220ms
+2023-08-30 13:28:42.344 +08:00 [DBG] Connection id "0HMT934JOK0TI" accepted.
+2023-08-30 13:28:42.344 +08:00 [DBG] Connection id "0HMT934JOK0TI" started.
+2023-08-30 13:28:42.347 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:28:42.347 +08:00 [DBG] Connection id "0HMT934JOK0TG" completed keep alive response.
+2023-08-30 13:28:42.347 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2674ms
+2023-08-30 13:28:42.368 +08:00 [DBG] Connection 0HMT934JOK0TI established using the following protocol: "Tls12"
+2023-08-30 13:28:42.386 +08:00 [DBG] Connection 0HMT934JOK0TH established using the following protocol: "Tls12"
+2023-08-30 13:28:49.981 +08:00 [INF] Application is shutting down...
+2023-08-30 13:28:49.985 +08:00 [DBG] Hosting stopping
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TB" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TF" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TH" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TG" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TD" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TE" disconnecting.
+2023-08-30 13:28:50.033 +08:00 [DBG] Connection id "0HMT934JOK0TC" disconnecting.
+2023-08-30 13:28:50.036 +08:00 [DBG] Connection id "0HMT934JOK0TH" stopped.
+2023-08-30 13:28:50.036 +08:00 [DBG] Connection id "0HMT934JOK0TE" stopped.
+2023-08-30 13:28:50.036 +08:00 [DBG] Connection id "0HMT934JOK0TD" stopped.
+2023-08-30 13:28:50.036 +08:00 [DBG] Connection id "0HMT934JOK0TB" stopped.
+2023-08-30 13:28:50.037 +08:00 [DBG] Connection id "0HMT934JOK0TG" stopped.
+2023-08-30 13:28:50.037 +08:00 [DBG] Connection id "0HMT934JOK0TF" stopped.
+2023-08-30 13:28:50.037 +08:00 [DBG] Connection id "0HMT934JOK0TC" stopped.
+2023-08-30 13:28:50.038 +08:00 [DBG] Connection id "0HMT934JOK0TE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.037 +08:00 [DBG] Connection id "0HMT934JOK0TG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.038 +08:00 [DBG] Connection id "0HMT934JOK0TF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.038 +08:00 [DBG] Connection id "0HMT934JOK0TB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.038 +08:00 [DBG] Connection id "0HMT934JOK0TH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.039 +08:00 [DBG] Connection id "0HMT934JOK0TC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.039 +08:00 [DBG] Connection id "0HMT934JOK0TD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.039 +08:00 [DBG] Connection id "0HMT934JOK0TI" disconnecting.
+2023-08-30 13:28:50.039 +08:00 [DBG] Connection id "0HMT934JOK0TI" stopped.
+2023-08-30 13:28:50.040 +08:00 [DBG] Connection id "0HMT934JOK0TI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:28:50.049 +08:00 [DBG] Hosting stopped
+2023-08-30 13:29:00.098 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 13:29:00.271 +08:00 [DBG] Hosting starting
+2023-08-30 13:29:00.456 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 13:29:00.497 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 13:29:00.498 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 13:29:00.499 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 13:29:00.499 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 13:29:00.500 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 13:29:00.503 +08:00 [INF] Hosting environment: Development
+2023-08-30 13:29:00.504 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 13:29:00.505 +08:00 [DBG] Hosting started
+2023-08-30 13:29:00.846 +08:00 [DBG] Connection id "0HMT93823P6DR" accepted.
+2023-08-30 13:29:00.852 +08:00 [DBG] Connection id "0HMT93823P6DR" started.
+2023-08-30 13:29:00.957 +08:00 [DBG] Connection 0HMT93823P6DR established using the following protocol: "Tls12"
+2023-08-30 13:29:01.036 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:29:01.053 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 13:29:01.110 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:29:01.111 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:29:01.254 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:29:01.267 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:29:01.269 +08:00 [DBG] Connection id "0HMT93823P6DR" completed keep alive response.
+2023-08-30 13:29:01.276 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 242.4380ms
+2023-08-30 13:29:01.304 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:29:01.312 +08:00 [DBG] Connection id "0HMT93823P6DR" completed keep alive response.
+2023-08-30 13:29:01.314 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 9.0379ms
+2023-08-30 13:29:01.368 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:29:01.370 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:29:01.370 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:29:01.592 +08:00 [DBG] Connection id "0HMT93823P6DR" completed keep alive response.
+2023-08-30 13:29:01.593 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.2663ms
+2023-08-30 13:30:12.300 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 87
+2023-08-30 13:30:12.329 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-08-30 13:30:12.339 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-08-30 13:30:12.341 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 13:30:12.348 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 13:30:12.349 +08:00 [INF] CORS policy execution successful.
+2023-08-30 13:30:12.356 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 13:30:12.361 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 13:30:12.416 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-08-30 13:30:12.418 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 13:30:12.418 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 13:30:12.419 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 13:30:12.419 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 13:30:12.420 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 13:30:12.421 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-08-30 13:30:12.565 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 13:30:12.757 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-08-30 13:30:12.766 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-08-30 13:30:12.769 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-08-30 13:30:12.770 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:30:12.770 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:30:12.778 +08:00 [DBG] Connection id "0HMT93823P6DR", Request id "0HMT93823P6DR:00000005": started reading request body.
+2023-08-30 13:30:12.778 +08:00 [DBG] Connection id "0HMT93823P6DR", Request id "0HMT93823P6DR:00000005": done reading request body.
+2023-08-30 13:30:12.896 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 13:30:12.896 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 13:30:12.896 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-08-30 13:30:12.915 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 13:30:13.771 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 13:30:13.819 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:30:13.878 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:30:13.884 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 13:30:13.890 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 13:30:13.899 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 13:30:13.955 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:14.249 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:14.253 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 13:30:14.270 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 13:30:14.331 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 13:30:14.339 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-08-30 13:30:14.362 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolType])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-08-30 13:30:14.470 +08:00 [INF] Executed DbCommand (109ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolType])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-08-30 13:30:14.501 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 13:30:14.514 +08:00 [DBG] A data reader was disposed.
+2023-08-30 13:30:14.520 +08:00 [DBG] Committing transaction.
+2023-08-30 13:30:14.531 +08:00 [DBG] Committed transaction.
+2023-08-30 13:30:14.535 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:14.541 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:14.543 +08:00 [DBG] Disposing transaction.
+2023-08-30 13:30:14.556 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:30:14.558 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 13:30:14.570 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 13:30:14.574 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 13:30:14.575 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 13:30:14.575 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 13:30:14.575 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 13:30:14.576 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 13:30:14.576 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-08-30 13:30:14.645 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 2220.8423ms
+2023-08-30 13:30:14.647 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 13:30:14.649 +08:00 [DBG] Connection id "0HMT93823P6DR" completed keep alive response.
+2023-08-30 13:30:14.652 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 13:30:14.656 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 87 - 200 99 application/json;+charset=utf-8 2359.2569ms
+2023-08-30 13:30:46.260 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 13:30:46.271 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 13:30:46.273 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 13:30:46.274 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:30:46.275 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 13:30:46.275 +08:00 [INF] CORS policy execution successful.
+2023-08-30 13:30:46.275 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 13:30:46.276 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:30:46.292 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 13:30:46.293 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 13:30:46.293 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 13:30:46.293 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 13:30:46.293 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 13:30:46.294 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 13:30:46.294 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:30:46.303 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:30:46.304 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:30:46.304 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 13:30:46.305 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:30:46.305 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:30:46.305 +08:00 [DBG] Connection id "0HMT93823P6DR", Request id "0HMT93823P6DR:00000006": started reading request body.
+2023-08-30 13:30:46.306 +08:00 [DBG] Connection id "0HMT93823P6DR", Request id "0HMT93823P6DR:00000006": done reading request body.
+2023-08-30 13:30:46.325 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:30:46.326 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:30:46.326 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:30:46.334 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:30:46.385 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 13:30:46.396 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:30:46.414 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:30:46.416 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 13:30:46.416 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 13:30:46.419 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 13:30:46.421 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:46.424 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:46.425 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 13:30:46.430 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 13:30:46.439 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 13:30:46.440 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-30 13:30:46.442 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 13:30:46.560 +08:00 [ERR] Failed executing DbCommand (118ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 13:30:46.571 +08:00 [DBG] Disposing transaction.
+2023-08-30 13:30:46.572 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:46.573 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:30:46.606 +08:00 [ERR] An exception occurred in the database while saving changes for context type 'Sustain.DbContexts.SustainContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Meter_MeterType_MeterTypeId". The conflict occurred in database "sustainable", table "dbo.MeterType", column 'MeterTypeId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08ec9b7d-6a1d-468d-bf06-8e143396b274
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Meter_MeterType_MeterTypeId". The conflict occurred in database "sustainable", table "dbo.MeterType", column 'MeterTypeId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08ec9b7d-6a1d-468d-bf06-8e143396b274
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-08-30 13:30:46.610 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 316.076ms
+2023-08-30 13:30:46.610 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:30:46.612 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Meter_MeterType_MeterTypeId". The conflict occurred in database "sustainable", table "dbo.MeterType", column 'MeterTypeId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08ec9b7d-6a1d-468d-bf06-8e143396b274
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sustain.Services.MeterRepository.SaveChangesAsync() in /Users/philipwebb/Development/dotnetangular/contactsapp/Services/MeterRepository.cs:line 21
+   at Sustain.Controllers.MetersController.CreateMeterAsync(CreateMeterDto meterCreateDto) in /Users/philipwebb/Development/dotnetangular/contactsapp/Controllers/MeterController.cs:line 36
+   at lambda_method84(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-30 13:30:46.643 +08:00 [DBG] Connection id "0HMT93823P6DR" completed keep alive response.
+2023-08-30 13:30:46.644 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 13:30:46.645 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 500 - text/plain;+charset=utf-8 387.3660ms
+2023-08-30 13:32:57.638 +08:00 [DBG] Connection id "0HMT93823P6DR" disconnecting.
+2023-08-30 13:32:57.653 +08:00 [DBG] Connection id "0HMT93823P6DR" stopped.
+2023-08-30 13:32:57.660 +08:00 [DBG] Connection id "0HMT93823P6DR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:56:14.448 +08:00 [DBG] Connection id "0HMT93823P6DS" accepted.
+2023-08-30 13:56:14.450 +08:00 [DBG] Connection id "0HMT93823P6DS" started.
+2023-08-30 13:56:14.496 +08:00 [DBG] Connection 0HMT93823P6DS established using the following protocol: "Tls12"
+2023-08-30 13:56:14.504 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 13:56:14.505 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 13:56:14.506 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 13:56:14.506 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:56:14.507 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 13:56:14.507 +08:00 [INF] CORS policy execution successful.
+2023-08-30 13:56:14.507 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 13:56:14.508 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:56:14.509 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 13:56:14.509 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 13:56:14.509 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 13:56:14.510 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 13:56:14.510 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 13:56:14.510 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 13:56:14.510 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:56:14.516 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 13:56:14.517 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:56:14.518 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 13:56:14.518 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:56:14.519 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 13:56:14.519 +08:00 [DBG] Connection id "0HMT93823P6DS", Request id "0HMT93823P6DS:00000002": started reading request body.
+2023-08-30 13:56:14.519 +08:00 [DBG] Connection id "0HMT93823P6DS", Request id "0HMT93823P6DS:00000002": done reading request body.
+2023-08-30 13:56:14.521 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:56:14.521 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:56:14.522 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 13:56:14.523 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 13:56:14.546 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 13:56:14.547 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:56:14.549 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:56:14.550 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 13:56:14.551 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 13:56:14.552 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 13:56:14.554 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:56:14.597 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:56:14.598 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 13:56:14.599 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 13:56:14.602 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 13:56:14.602 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-30 13:56:14.603 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 13:56:14.607 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 13:56:14.614 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 13:56:14.618 +08:00 [DBG] A data reader was disposed.
+2023-08-30 13:56:14.618 +08:00 [DBG] Committing transaction.
+2023-08-30 13:56:14.623 +08:00 [DBG] Committed transaction.
+2023-08-30 13:56:14.623 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:56:14.623 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 13:56:14.623 +08:00 [DBG] Disposing transaction.
+2023-08-30 13:56:14.625 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 13:56:14.625 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 13:56:14.630 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 13:56:14.631 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 13:56:14.631 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 13:56:14.631 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 13:56:14.631 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 13:56:14.631 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 13:56:14.631 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.MeterDto'.
+2023-08-30 13:56:14.641 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 130.9337ms
+2023-08-30 13:56:14.641 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 13:56:14.641 +08:00 [DBG] Connection id "0HMT93823P6DS" completed keep alive response.
+2023-08-30 13:56:14.641 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 13:56:14.641 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 200 97 application/json;+charset=utf-8 138.1711ms
+2023-08-30 13:58:25.058 +08:00 [DBG] Connection id "0HMT93823P6DS" disconnecting.
+2023-08-30 13:58:25.063 +08:00 [DBG] Connection id "0HMT93823P6DS" stopped.
+2023-08-30 13:58:25.065 +08:00 [DBG] Connection id "0HMT93823P6DS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 13:58:32.765 +08:00 [DBG] Connection id "0HMT93823P6DT" accepted.
+2023-08-30 13:58:32.765 +08:00 [DBG] Connection id "0HMT93823P6DT" started.
+2023-08-30 13:58:32.797 +08:00 [DBG] Connection 0HMT93823P6DT established using the following protocol: "Tls12"
+2023-08-30 13:58:32.799 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 13:58:32.799 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 13:58:32.800 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:58:32.814 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 13:58:32.815 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 13:58:32.815 +08:00 [DBG] Connection id "0HMT93823P6DT" completed keep alive response.
+2023-08-30 13:58:32.816 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 16.9727ms
+2023-08-30 13:58:32.863 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:58:32.865 +08:00 [DBG] Connection id "0HMT93823P6DT" completed keep alive response.
+2023-08-30 13:58:32.865 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.0001ms
+2023-08-30 13:58:32.932 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 13:58:32.933 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 13:58:32.933 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 13:58:32.958 +08:00 [DBG] Connection id "0HMT93823P6DT" completed keep alive response.
+2023-08-30 13:58:32.959 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 26.5658ms
+2023-08-30 13:58:33.462 +08:00 [DBG] Connection id "0HMT93823P6DU" accepted.
+2023-08-30 13:58:33.463 +08:00 [DBG] Connection id "0HMT93823P6DU" started.
+2023-08-30 13:58:33.491 +08:00 [DBG] Connection 0HMT93823P6DU established using the following protocol: "Tls12"
+2023-08-30 13:58:33.495 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 13:58:33.496 +08:00 [DBG] Connection id "0HMT93823P6DU" completed keep alive response.
+2023-08-30 13:58:33.497 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.9877ms
+2023-08-30 14:00:06.049 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 103
+2023-08-30 14:00:06.052 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 14:00:06.056 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 14:00:06.057 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:00:06.059 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:00:06.061 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:00:06.065 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:00:06.066 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:00:06.081 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 14:00:06.081 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:00:06.082 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:00:06.082 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:00:06.082 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:00:06.082 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:00:06.082 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:00:06.090 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:00:06.091 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:00:06.092 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 14:00:06.092 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:00:06.093 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:00:06.093 +08:00 [DBG] Connection id "0HMT93823P6DT", Request id "0HMT93823P6DT:00000005": started reading request body.
+2023-08-30 14:00:06.094 +08:00 [DBG] Connection id "0HMT93823P6DT", Request id "0HMT93823P6DT:00000005": done reading request body.
+2023-08-30 14:00:06.096 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:00:06.096 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:00:06.096 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:00:06.104 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:00:06.110 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:00:06.111 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:00:06.113 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:00:06.113 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:00:06.113 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:00:06.114 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:00:06.115 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:00:06.116 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:00:06.116 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:00:06.119 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:00:06.122 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:00:06.123 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-30 14:00:06.124 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:00:06.128 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:00:06.129 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:00:06.130 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:00:06.130 +08:00 [DBG] Committing transaction.
+2023-08-30 14:00:06.134 +08:00 [DBG] Committed transaction.
+2023-08-30 14:00:06.134 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:00:06.134 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:00:06.134 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:00:06.135 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:00:06.135 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:00:06.139 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 56.6841ms
+2023-08-30 14:00:06.139 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:00:06.140 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Meter -> MeterDto
+Sustain.Entities.Meter -> Sustain.Models.MeterDto
+
+Type Map configuration:
+Meter -> MeterDto
+Sustain.Entities.Meter -> Sustain.Models.MeterDto
+
+Destination Member:
+MeterType
+
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Sustain.Models.MeterDto.set_MeterType(String value)
+   at lambda_method159(Closure , Object , MeterDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method159(Closure , Object , MeterDto , ResolutionContext )
+   at Sustain.Controllers.MetersController.CreateMeterAsync(CreateMeterDto meterCreateDto)
+   at lambda_method171(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-30 14:00:06.148 +08:00 [DBG] Connection id "0HMT93823P6DT" completed keep alive response.
+2023-08-30 14:00:06.148 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:00:06.149 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 103 - 500 - text/plain;+charset=utf-8 99.5368ms
+2023-08-30 14:00:44.204 +08:00 [DBG] Connection id "0HMT93823P6DU" disconnecting.
+2023-08-30 14:00:44.205 +08:00 [DBG] Connection id "0HMT93823P6DU" stopped.
+2023-08-30 14:00:44.206 +08:00 [DBG] Connection id "0HMT93823P6DU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:02:16.294 +08:00 [DBG] Connection id "0HMT93823P6DT" disconnecting.
+2023-08-30 14:02:16.296 +08:00 [DBG] Connection id "0HMT93823P6DT" stopped.
+2023-08-30 14:02:16.297 +08:00 [DBG] Connection id "0HMT93823P6DT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:05:35.158 +08:00 [INF] Application is shutting down...
+2023-08-30 14:05:35.162 +08:00 [DBG] Hosting stopping
+2023-08-30 14:05:35.196 +08:00 [DBG] Hosting stopped
+2023-08-30 14:05:47.757 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 14:05:47.931 +08:00 [DBG] Hosting starting
+2023-08-30 14:05:48.118 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 14:05:48.157 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 14:05:48.158 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 14:05:48.158 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 14:05:48.158 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 14:05:48.160 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 14:05:48.163 +08:00 [INF] Hosting environment: Development
+2023-08-30 14:05:48.163 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 14:05:48.164 +08:00 [DBG] Hosting started
+2023-08-30 14:05:48.434 +08:00 [DBG] Connection id "0HMT93SK0VON9" accepted.
+2023-08-30 14:05:48.442 +08:00 [DBG] Connection id "0HMT93SK0VON9" started.
+2023-08-30 14:05:48.545 +08:00 [DBG] Connection 0HMT93SK0VON9 established using the following protocol: "Tls12"
+2023-08-30 14:05:48.613 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:05:48.631 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 14:05:48.687 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:05:48.688 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:05:48.827 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:05:48.841 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:05:48.843 +08:00 [DBG] Connection id "0HMT93SK0VON9" completed keep alive response.
+2023-08-30 14:05:48.849 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 240.8724ms
+2023-08-30 14:05:48.884 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:05:48.898 +08:00 [DBG] Connection id "0HMT93SK0VON9" completed keep alive response.
+2023-08-30 14:05:48.899 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 15.3822ms
+2023-08-30 14:05:48.944 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:05:48.945 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:05:48.945 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:05:49.184 +08:00 [DBG] Connection id "0HMT93SK0VON9" completed keep alive response.
+2023-08-30 14:05:49.185 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 240.4083ms
+2023-08-30 14:05:49.207 +08:00 [DBG] Connection id "0HMT93SK0VONA" accepted.
+2023-08-30 14:05:49.207 +08:00 [DBG] Connection id "0HMT93SK0VONA" started.
+2023-08-30 14:05:49.233 +08:00 [DBG] Connection 0HMT93SK0VONA established using the following protocol: "Tls12"
+2023-08-30 14:05:49.235 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:05:49.236 +08:00 [DBG] Connection id "0HMT93SK0VONA" completed keep alive response.
+2023-08-30 14:05:49.237 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.2740ms
+2023-08-30 14:06:27.871 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 14:06:27.900 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 14:06:27.911 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 14:06:27.913 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:06:27.921 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:06:27.922 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:06:27.929 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:06:27.935 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:06:27.989 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 14:06:27.991 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:06:27.991 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:06:27.992 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:06:27.993 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:06:27.993 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:06:27.994 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:06:28.135 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 14:06:28.333 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:06:28.340 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:06:28.344 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 14:06:28.345 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:06:28.346 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:06:28.351 +08:00 [DBG] Connection id "0HMT93SK0VON9", Request id "0HMT93SK0VON9:00000005": started reading request body.
+2023-08-30 14:06:28.352 +08:00 [DBG] Connection id "0HMT93SK0VON9", Request id "0HMT93SK0VON9:00000005": done reading request body.
+2023-08-30 14:06:28.478 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:06:28.478 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:06:28.478 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:06:28.499 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:06:29.337 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:06:29.392 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:06:29.467 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:06:29.476 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:06:29.483 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:06:29.494 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:06:29.550 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:06:29.831 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:06:29.835 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:06:29.852 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:06:29.921 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:06:29.929 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-08-30 14:06:29.954 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:06:30.031 +08:00 [INF] Executed DbCommand (80ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:06:30.063 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:06:30.076 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:06:30.081 +08:00 [DBG] Committing transaction.
+2023-08-30 14:06:30.090 +08:00 [DBG] Committed transaction.
+2023-08-30 14:06:30.093 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:06:30.100 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:06:30.101 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:06:30.115 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:06:30.118 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:06:30.129 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 14:06:30.133 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 14:06:30.134 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 14:06:30.134 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 14:06:30.134 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 14:06:30.135 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 14:06:30.135 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.MeterDto'.
+2023-08-30 14:06:30.203 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 2204.9921ms
+2023-08-30 14:06:30.204 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:06:30.207 +08:00 [DBG] Connection id "0HMT93SK0VON9" completed keep alive response.
+2023-08-30 14:06:30.210 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:06:30.214 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 200 94 application/json;+charset=utf-8 2346.3584ms
+2023-08-30 14:08:00.201 +08:00 [DBG] Connection id "0HMT93SK0VONA" disconnecting.
+2023-08-30 14:08:00.216 +08:00 [DBG] Connection id "0HMT93SK0VONA" stopped.
+2023-08-30 14:08:00.222 +08:00 [DBG] Connection id "0HMT93SK0VONA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:08:41.229 +08:00 [DBG] Connection id "0HMT93SK0VON9" disconnecting.
+2023-08-30 14:08:41.232 +08:00 [DBG] Connection id "0HMT93SK0VON9" stopped.
+2023-08-30 14:08:41.235 +08:00 [DBG] Connection id "0HMT93SK0VON9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:09:05.666 +08:00 [DBG] Connection id "0HMT93SK0VONB" accepted.
+2023-08-30 14:09:05.667 +08:00 [DBG] Connection id "0HMT93SK0VONB" started.
+2023-08-30 14:09:05.698 +08:00 [DBG] Connection 0HMT93SK0VONB established using the following protocol: "Tls12"
+2023-08-30 14:09:05.700 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:09:05.702 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:09:05.702 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:09:05.716 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:09:05.717 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:09:05.717 +08:00 [DBG] Connection id "0HMT93SK0VONB" completed keep alive response.
+2023-08-30 14:09:05.718 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 17.4325ms
+2023-08-30 14:09:05.761 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:09:05.763 +08:00 [DBG] Connection id "0HMT93SK0VONB" completed keep alive response.
+2023-08-30 14:09:05.764 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.0384ms
+2023-08-30 14:09:05.834 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:09:05.835 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:09:05.835 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:09:05.889 +08:00 [DBG] Connection id "0HMT93SK0VONB" completed keep alive response.
+2023-08-30 14:09:05.891 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.9942ms
+2023-08-30 14:09:06.361 +08:00 [DBG] Connection id "0HMT93SK0VONC" accepted.
+2023-08-30 14:09:06.361 +08:00 [DBG] Connection id "0HMT93SK0VONC" started.
+2023-08-30 14:09:06.390 +08:00 [DBG] Connection 0HMT93SK0VONC established using the following protocol: "Tls12"
+2023-08-30 14:09:06.393 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:09:06.394 +08:00 [DBG] Connection id "0HMT93SK0VONC" completed keep alive response.
+2023-08-30 14:09:06.395 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.7157ms
+2023-08-30 14:09:58.088 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 14:09:58.095 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 14:09:58.098 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 14:09:58.099 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:09:58.104 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:09:58.104 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:09:58.105 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:09:58.107 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:09:58.128 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 14:09:58.128 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:09:58.129 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:09:58.129 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:09:58.129 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:09:58.132 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:09:58.132 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:09:58.156 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:09:58.157 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:09:58.158 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 14:09:58.158 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:09:58.159 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:09:58.160 +08:00 [DBG] Connection id "0HMT93SK0VONB", Request id "0HMT93SK0VONB:00000005": started reading request body.
+2023-08-30 14:09:58.160 +08:00 [DBG] Connection id "0HMT93SK0VONB", Request id "0HMT93SK0VONB:00000005": done reading request body.
+2023-08-30 14:09:58.164 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:09:58.164 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:09:58.164 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:09:58.169 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:09:58.214 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:09:58.218 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:09:58.221 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:09:58.222 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:09:58.222 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:09:58.223 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:09:58.225 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:09:58.228 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:09:58.229 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:09:58.233 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:09:58.240 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:09:58.240 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-30 14:09:58.242 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:09:58.253 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:09:58.256 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:09:58.257 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:09:58.257 +08:00 [DBG] Committing transaction.
+2023-08-30 14:09:58.264 +08:00 [DBG] Committed transaction.
+2023-08-30 14:09:58.265 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:09:58.265 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:09:58.266 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:09:58.267 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:09:58.267 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:09:58.272 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 139.4878ms
+2023-08-30 14:09:58.272 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:09:58.273 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Meter -> MeterDto
+Sustain.Entities.Meter -> Sustain.Models.MeterDto
+
+Type Map configuration:
+Meter -> MeterDto
+Sustain.Entities.Meter -> Sustain.Models.MeterDto
+
+Destination Member:
+MeterType
+
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Sustain.Models.MeterDto.set_MeterType(Int32 value)
+   at lambda_method100(Closure , Object , MeterDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method100(Closure , Object , MeterDto , ResolutionContext )
+   at Sustain.Controllers.MetersController.CreateMeterAsync(CreateMeterDto meterCreateDto)
+   at lambda_method113(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-30 14:09:58.301 +08:00 [DBG] Connection id "0HMT93SK0VONB" completed keep alive response.
+2023-08-30 14:09:58.302 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:09:58.303 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 500 - text/plain;+charset=utf-8 214.4685ms
+2023-08-30 14:10:39.943 +08:00 [INF] Application is shutting down...
+2023-08-30 14:10:39.946 +08:00 [DBG] Hosting stopping
+2023-08-30 14:10:39.980 +08:00 [DBG] Connection id "0HMT93SK0VONB" disconnecting.
+2023-08-30 14:10:39.980 +08:00 [DBG] Connection id "0HMT93SK0VONC" disconnecting.
+2023-08-30 14:10:39.982 +08:00 [DBG] Connection id "0HMT93SK0VONC" stopped.
+2023-08-30 14:10:39.982 +08:00 [DBG] Connection id "0HMT93SK0VONB" stopped.
+2023-08-30 14:10:39.983 +08:00 [DBG] Connection id "0HMT93SK0VONB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:10:39.984 +08:00 [DBG] Connection id "0HMT93SK0VONC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:10:39.996 +08:00 [DBG] Hosting stopped
+2023-08-30 14:10:52.602 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 14:10:52.780 +08:00 [DBG] Hosting starting
+2023-08-30 14:10:52.969 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 14:10:53.006 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 14:10:53.007 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 14:10:53.008 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 14:10:53.008 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 14:10:53.010 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 14:10:53.012 +08:00 [INF] Hosting environment: Development
+2023-08-30 14:10:53.012 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 14:10:53.013 +08:00 [DBG] Hosting started
+2023-08-30 14:10:53.269 +08:00 [DBG] Connection id "0HMT93VES4I23" accepted.
+2023-08-30 14:10:53.272 +08:00 [DBG] Connection id "0HMT93VES4I23" started.
+2023-08-30 14:10:53.371 +08:00 [DBG] Connection 0HMT93VES4I23 established using the following protocol: "Tls12"
+2023-08-30 14:10:53.439 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:10:53.456 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 14:10:53.508 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:10:53.509 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:10:53.647 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:10:53.661 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:10:53.663 +08:00 [DBG] Connection id "0HMT93VES4I23" completed keep alive response.
+2023-08-30 14:10:53.671 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 233.9364ms
+2023-08-30 14:10:53.705 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:10:53.716 +08:00 [DBG] Connection id "0HMT93VES4I23" completed keep alive response.
+2023-08-30 14:10:53.718 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 11.9873ms
+2023-08-30 14:10:53.765 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:10:53.766 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:10:53.766 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:10:53.984 +08:00 [DBG] Connection id "0HMT93VES4I23" completed keep alive response.
+2023-08-30 14:10:53.985 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 220.0367ms
+2023-08-30 14:10:54.330 +08:00 [DBG] Connection id "0HMT93VES4I24" accepted.
+2023-08-30 14:10:54.335 +08:00 [DBG] Connection id "0HMT93VES4I24" started.
+2023-08-30 14:10:54.371 +08:00 [DBG] Connection 0HMT93VES4I24 established using the following protocol: "Tls12"
+2023-08-30 14:10:54.377 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:10:54.381 +08:00 [DBG] Connection id "0HMT93VES4I24" completed keep alive response.
+2023-08-30 14:10:54.382 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.3705ms
+2023-08-30 14:11:25.161 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 14:11:25.186 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 14:11:25.195 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 14:11:25.198 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:11:25.208 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:11:25.210 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:11:25.218 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:11:25.227 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:11:25.282 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 14:11:25.284 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:11:25.284 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:11:25.285 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:11:25.286 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:11:25.286 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:11:25.287 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:11:25.424 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 14:11:25.621 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:11:25.629 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:11:25.632 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 14:11:25.633 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:11:25.633 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:11:25.640 +08:00 [DBG] Connection id "0HMT93VES4I23", Request id "0HMT93VES4I23:00000005": started reading request body.
+2023-08-30 14:11:25.640 +08:00 [DBG] Connection id "0HMT93VES4I23", Request id "0HMT93VES4I23:00000005": done reading request body.
+2023-08-30 14:11:25.765 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:11:25.766 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:11:25.766 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:11:25.786 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:11:26.630 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:11:26.684 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:11:26.747 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:11:26.753 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:11:26.759 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:11:26.769 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:11:26.823 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:11:27.113 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:11:27.117 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:11:27.134 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:11:27.202 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:11:27.211 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2023-08-30 14:11:27.235 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:11:27.313 +08:00 [INF] Executed DbCommand (80ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:11:27.345 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:11:27.358 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:11:27.364 +08:00 [DBG] Committing transaction.
+2023-08-30 14:11:27.373 +08:00 [DBG] Committed transaction.
+2023-08-30 14:11:27.377 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:11:27.383 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:11:27.385 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:11:27.400 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:11:27.403 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:11:27.414 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 14:11:27.418 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 14:11:27.419 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 14:11:27.419 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 14:11:27.419 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 14:11:27.420 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 14:11:27.421 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.MeterDto'.
+2023-08-30 14:11:27.489 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 2198.0413ms
+2023-08-30 14:11:27.490 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:11:27.493 +08:00 [DBG] Connection id "0HMT93VES4I23" completed keep alive response.
+2023-08-30 14:11:27.496 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:11:27.501 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 200 96 application/json;+charset=utf-8 2341.0514ms
+2023-08-30 14:13:05.057 +08:00 [DBG] Connection id "0HMT93VES4I24" disconnecting.
+2023-08-30 14:13:05.074 +08:00 [DBG] Connection id "0HMT93VES4I24" stopped.
+2023-08-30 14:13:05.080 +08:00 [DBG] Connection id "0HMT93VES4I24" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:13:38.080 +08:00 [DBG] Connection id "0HMT93VES4I23" disconnecting.
+2023-08-30 14:13:38.085 +08:00 [DBG] Connection id "0HMT93VES4I23" stopped.
+2023-08-30 14:13:38.087 +08:00 [DBG] Connection id "0HMT93VES4I23" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:13:53.707 +08:00 [INF] Application is shutting down...
+2023-08-30 14:13:53.711 +08:00 [DBG] Hosting stopping
+2023-08-30 14:13:53.749 +08:00 [DBG] Hosting stopped
+2023-08-30 14:14:08.311 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 14:14:08.482 +08:00 [DBG] Hosting starting
+2023-08-30 14:14:08.666 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 14:14:08.702 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 14:14:08.703 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 14:14:08.703 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 14:14:08.703 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 14:14:08.705 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 14:14:08.707 +08:00 [INF] Hosting environment: Development
+2023-08-30 14:14:08.708 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 14:14:08.709 +08:00 [DBG] Hosting started
+2023-08-30 14:14:08.933 +08:00 [DBG] Connection id "0HMT9419643HR" accepted.
+2023-08-30 14:14:08.939 +08:00 [DBG] Connection id "0HMT9419643HR" started.
+2023-08-30 14:14:09.037 +08:00 [DBG] Connection 0HMT9419643HR established using the following protocol: "Tls12"
+2023-08-30 14:14:09.097 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:14:09.114 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 14:14:09.169 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:14:09.170 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:14:09.306 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:14:09.320 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:14:09.322 +08:00 [DBG] Connection id "0HMT9419643HR" completed keep alive response.
+2023-08-30 14:14:09.329 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 233.5370ms
+2023-08-30 14:14:09.359 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:14:09.372 +08:00 [DBG] Connection id "0HMT9419643HR" completed keep alive response.
+2023-08-30 14:14:09.375 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 14.0965ms
+2023-08-30 14:14:09.419 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:14:09.420 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:14:09.420 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:14:09.677 +08:00 [DBG] Connection id "0HMT9419643HR" completed keep alive response.
+2023-08-30 14:14:09.679 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 259.0271ms
+2023-08-30 14:14:09.980 +08:00 [DBG] Connection id "0HMT9419643HS" accepted.
+2023-08-30 14:14:09.985 +08:00 [DBG] Connection id "0HMT9419643HS" started.
+2023-08-30 14:14:10.014 +08:00 [DBG] Connection 0HMT9419643HS established using the following protocol: "Tls12"
+2023-08-30 14:14:10.019 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:14:10.022 +08:00 [DBG] Connection id "0HMT9419643HS" completed keep alive response.
+2023-08-30 14:14:10.023 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.8575ms
+2023-08-30 14:15:11.982 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 14:15:12.154 +08:00 [DBG] Hosting starting
+2023-08-30 14:15:12.344 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 14:15:12.380 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 14:15:12.381 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 14:15:12.382 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 14:15:12.382 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 14:15:12.383 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 14:15:12.386 +08:00 [INF] Hosting environment: Development
+2023-08-30 14:15:12.386 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 14:15:12.386 +08:00 [DBG] Hosting started
+2023-08-30 14:15:12.421 +08:00 [DBG] Connection id "0HMT941S3JT8V" accepted.
+2023-08-30 14:15:12.423 +08:00 [DBG] Connection id "0HMT941S3JT8V" started.
+2023-08-30 14:15:12.506 +08:00 [DBG] Connection 0HMT941S3JT8V established using the following protocol: "Tls12"
+2023-08-30 14:15:12.567 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:15:12.582 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 14:15:12.635 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:15:12.637 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:15:12.772 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:15:12.786 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:15:12.788 +08:00 [DBG] Connection id "0HMT941S3JT8V" completed keep alive response.
+2023-08-30 14:15:12.794 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 229.4446ms
+2023-08-30 14:15:12.843 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:15:12.849 +08:00 [DBG] Connection id "0HMT941S3JT8V" completed keep alive response.
+2023-08-30 14:15:12.851 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 7.0275ms
+2023-08-30 14:15:12.878 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:15:12.879 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:15:12.880 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:15:13.077 +08:00 [DBG] Connection id "0HMT941S3JT8V" completed keep alive response.
+2023-08-30 14:15:13.079 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.0827ms
+2023-08-30 14:15:13.416 +08:00 [DBG] Connection id "0HMT941S3JT90" accepted.
+2023-08-30 14:15:13.420 +08:00 [DBG] Connection id "0HMT941S3JT90" started.
+2023-08-30 14:15:13.450 +08:00 [DBG] Connection 0HMT941S3JT90 established using the following protocol: "Tls12"
+2023-08-30 14:15:13.456 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:15:13.459 +08:00 [DBG] Connection id "0HMT941S3JT90" completed keep alive response.
+2023-08-30 14:15:13.461 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.3411ms
+2023-08-30 14:15:31.966 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96
+2023-08-30 14:15:31.994 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-08-30 14:15:32.008 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-08-30 14:15:32.010 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:15:32.020 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:15:32.021 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:15:32.029 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:15:32.034 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:15:32.088 +08:00 [INF] Route matched with {action = "CreateMeter", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.MeterDto]] CreateMeterAsync(Sustain.Models.CreateMeterDto) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-08-30 14:15:32.090 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:15:32.091 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:15:32.092 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:15:32.092 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:15:32.092 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:15:32.093 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:15:32.237 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 14:15:32.433 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-08-30 14:15:32.450 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:15:32.456 +08:00 [DBG] Attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' using the name '' in request data ...
+2023-08-30 14:15:32.457 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:15:32.458 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:15:32.464 +08:00 [DBG] Connection id "0HMT941S3JT8V", Request id "0HMT941S3JT8V:00000005": started reading request body.
+2023-08-30 14:15:32.465 +08:00 [DBG] Connection id "0HMT941S3JT8V", Request id "0HMT941S3JT8V:00000005": done reading request body.
+2023-08-30 14:15:32.590 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:15:32.590 +08:00 [DBG] Done attempting to bind parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:15:32.590 +08:00 [DBG] Attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto' ...
+2023-08-30 14:15:32.607 +08:00 [DBG] Done attempting to validate the bound parameter 'meterCreateDto' of type 'Sustain.Models.CreateMeterDto'.
+2023-08-30 14:15:33.436 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:15:33.491 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'MeterId.Meter'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:15:33.554 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:15:33.559 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:15:33.565 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:15:33.575 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:15:33.629 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:15:33.904 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:15:33.907 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:15:33.924 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:15:33.992 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:15:34.001 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-08-30 14:15:34.024 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:15:34.100 +08:00 [INF] Executed DbCommand (78ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Meter] ([MeterDescription], [MeterName], [MeterTypeId], [SchoolId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [MeterId]
+FROM [Meter]
+WHERE @@ROWCOUNT = 1 AND [MeterId] = scope_identity();
+2023-08-30 14:15:34.132 +08:00 [DBG] The foreign key property 'Meter.MeterId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:15:34.147 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:15:34.153 +08:00 [DBG] Committing transaction.
+2023-08-30 14:15:34.162 +08:00 [DBG] Committed transaction.
+2023-08-30 14:15:34.165 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:15:34.172 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:15:34.174 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:15:34.187 +08:00 [DBG] An entity of type 'Meter' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:15:34.190 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:15:34.201 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 14:15:34.205 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 14:15:34.206 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 14:15:34.206 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 14:15:34.206 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 14:15:34.207 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 14:15:34.207 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.MeterDto'.
+2023-08-30 14:15:34.275 +08:00 [INF] Executed action Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp) in 2178.0663ms
+2023-08-30 14:15:34.276 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.CreateMeterAsync (contactsapp)'
+2023-08-30 14:15:34.279 +08:00 [DBG] Connection id "0HMT941S3JT8V" completed keep alive response.
+2023-08-30 14:15:34.281 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:15:34.285 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/Meters application/json-patch+json 96 - 200 96 application/json;+charset=utf-8 2320.9331ms
+2023-08-30 14:17:01.626 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-30 14:17:01.793 +08:00 [DBG] Hosting starting
+2023-08-30 14:17:01.972 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-30 14:17:02.007 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-30 14:17:02.008 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-30 14:17:02.009 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-30 14:17:02.009 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-30 14:17:02.011 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-30 14:17:02.013 +08:00 [INF] Hosting environment: Development
+2023-08-30 14:17:02.013 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-30 14:17:02.013 +08:00 [DBG] Hosting started
+2023-08-30 14:17:02.053 +08:00 [DBG] Connection id "0HMT942SP4P7N" accepted.
+2023-08-30 14:17:02.055 +08:00 [DBG] Connection id "0HMT942SP4P7N" started.
+2023-08-30 14:17:02.143 +08:00 [DBG] Connection 0HMT942SP4P7N established using the following protocol: "Tls12"
+2023-08-30 14:17:02.200 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-08-30 14:17:02.214 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-30 14:17:02.263 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-30 14:17:02.264 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:17:02.392 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-30 14:17:02.405 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-30 14:17:02.407 +08:00 [DBG] Connection id "0HMT942SP4P7N" completed keep alive response.
+2023-08-30 14:17:02.412 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 215.1767ms
+2023-08-30 14:17:02.472 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:17:02.477 +08:00 [DBG] Connection id "0HMT942SP4P7N" completed keep alive response.
+2023-08-30 14:17:02.479 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.6415ms
+2023-08-30 14:17:02.508 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-08-30 14:17:02.510 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-30 14:17:02.510 +08:00 [DBG] Request did not match any endpoints
+2023-08-30 14:17:02.700 +08:00 [DBG] Connection id "0HMT942SP4P7N" completed keep alive response.
+2023-08-30 14:17:02.702 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.7078ms
+2023-08-30 14:17:03.024 +08:00 [DBG] Connection id "0HMT942SP4P7O" accepted.
+2023-08-30 14:17:03.028 +08:00 [DBG] Connection id "0HMT942SP4P7O" started.
+2023-08-30 14:17:03.078 +08:00 [DBG] Connection 0HMT942SP4P7O established using the following protocol: "Tls12"
+2023-08-30 14:17:03.085 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-08-30 14:17:03.088 +08:00 [DBG] Connection id "0HMT942SP4P7O" completed keep alive response.
+2023-08-30 14:17:03.089 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.1904ms
+2023-08-30 14:17:34.915 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 92
+2023-08-30 14:17:34.943 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-08-30 14:17:34.956 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-08-30 14:17:34.958 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 14:17:34.967 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-08-30 14:17:34.968 +08:00 [INF] CORS policy execution successful.
+2023-08-30 14:17:34.976 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-30 14:17:34.982 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 14:17:35.033 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-08-30 14:17:35.035 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-30 14:17:35.036 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-30 14:17:35.037 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-30 14:17:35.037 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-30 14:17:35.037 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-30 14:17:35.038 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-08-30 14:17:35.180 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-30 14:17:35.367 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-08-30 14:17:35.375 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-08-30 14:17:35.378 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-08-30 14:17:35.379 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:17:35.380 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-30 14:17:35.386 +08:00 [DBG] Connection id "0HMT942SP4P7N", Request id "0HMT942SP4P7N:00000005": started reading request body.
+2023-08-30 14:17:35.386 +08:00 [DBG] Connection id "0HMT942SP4P7N", Request id "0HMT942SP4P7N:00000005": done reading request body.
+2023-08-30 14:17:35.505 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 14:17:35.505 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 14:17:35.505 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-08-30 14:17:35.520 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-08-30 14:17:36.352 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-30 14:17:36.401 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:17:36.464 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:17:36.469 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-08-30 14:17:36.476 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-30 14:17:36.485 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-30 14:17:36.541 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:17:36.810 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:17:36.813 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-30 14:17:36.831 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-30 14:17:36.893 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-30 14:17:36.902 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-08-30 14:17:36.925 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolType])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-08-30 14:17:37.003 +08:00 [INF] Executed DbCommand (79ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolType])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-08-30 14:17:37.038 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-08-30 14:17:37.055 +08:00 [DBG] A data reader was disposed.
+2023-08-30 14:17:37.064 +08:00 [DBG] Committing transaction.
+2023-08-30 14:17:37.075 +08:00 [DBG] Committed transaction.
+2023-08-30 14:17:37.079 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:17:37.086 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-30 14:17:37.088 +08:00 [DBG] Disposing transaction.
+2023-08-30 14:17:37.101 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-08-30 14:17:37.104 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-08-30 14:17:37.118 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-08-30 14:17:37.122 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-30 14:17:37.123 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-30 14:17:37.123 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-30 14:17:37.123 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-30 14:17:37.124 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-30 14:17:37.124 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-08-30 14:17:37.193 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 2151.6978ms
+2023-08-30 14:17:37.195 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-08-30 14:17:37.197 +08:00 [DBG] Connection id "0HMT942SP4P7N" completed keep alive response.
+2023-08-30 14:17:37.200 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-30 14:17:37.205 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 92 - 200 104 application/json;+charset=utf-8 2292.4073ms
+2023-08-30 14:19:14.065 +08:00 [DBG] Connection id "0HMT942SP4P7O" disconnecting.
+2023-08-30 14:19:14.086 +08:00 [DBG] Connection id "0HMT942SP4P7O" stopped.
+2023-08-30 14:19:14.092 +08:00 [DBG] Connection id "0HMT942SP4P7O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:19:48.082 +08:00 [DBG] Connection id "0HMT942SP4P7N" disconnecting.
+2023-08-30 14:19:48.088 +08:00 [DBG] Connection id "0HMT942SP4P7N" stopped.
+2023-08-30 14:19:48.090 +08:00 [DBG] Connection id "0HMT942SP4P7N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-30 14:32:58.421 +08:00 [INF] Application is shutting down...
+2023-08-30 14:32:58.431 +08:00 [DBG] Hosting stopping
+2023-08-30 14:32:58.468 +08:00 [DBG] Hosting stopped

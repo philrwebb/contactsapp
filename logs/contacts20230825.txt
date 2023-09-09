@@ -1,0 +1,561 @@
+2023-08-25 12:05:03.904 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:05:04.901 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:05:05.094 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:05:05.097 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:05:05.228 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:05:22.614 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:05:23.578 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:05:23.677 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:23.688 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:24.965 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:24.979 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:05:24.990 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2023-08-25 12:05:25.004 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:05:25.045 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:05:25.049 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.055 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.064 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:05:25.065 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:05:25.065 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.067 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.068 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:05:25.090 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:05:25.091 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.094 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.094 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.095 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.095 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:05:25.095 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:05:25.096 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:05:25.101 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:05:25.101 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.101 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.227 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:05:25.230 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:05:25.257 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:05:25.257 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:05:25.257 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.258 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.258 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-08-25 12:05:25.271 +08:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-08-25 12:05:25.272 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.272 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:05:25.275 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:06:34.582 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:06:35.571 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:06:35.650 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:35.661 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:35.990 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.000 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.011 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2023-08-25 12:06:36.026 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.065 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.069 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.076 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.083 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:06:36.083 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:06:36.084 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.086 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.087 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:06:36.109 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:06:36.109 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.111 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.111 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.111 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.112 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.112 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.112 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.116 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.116 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.116 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.229 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:06:36.231 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:06:36.256 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.256 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.257 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.257 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.257 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-08-25 12:06:36.274 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-08-25 12:06:36.275 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.275 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.276 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.276 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.277 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.277 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.277 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.279 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:06:36.279 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.279 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.280 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:06:36.280 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:06:36.280 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.280 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.280 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:06:36.285 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:06:36.286 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.286 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.288 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-25 12:06:36.288 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-25 12:06:36.288 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.288 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.289 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:06:36.297 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:06:36.300 +08:00 [DBG] A data reader was disposed.
+2023-08-25 12:06:36.300 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.300 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.316 +08:00 [INF] Applying migration '20230825040505_metermig'.
+2023-08-25 12:06:36.374 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.375 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.377 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-25 12:06:36.388 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-25 12:06:36.390 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.391 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.392 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contact] (
+    [ContactId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(255) NULL,
+    [LastName] nvarchar(255) NULL,
+    [EmailAddress] nvarchar(255) NULL,
+    [Phone] nvarchar(100) NULL,
+    CONSTRAINT [PK_Contact] PRIMARY KEY ([ContactId])
+);
+2023-08-25 12:06:36.401 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contact] (
+    [ContactId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(255) NULL,
+    [LastName] nvarchar(255) NULL,
+    [EmailAddress] nvarchar(255) NULL,
+    [Phone] nvarchar(100) NULL,
+    CONSTRAINT [PK_Contact] PRIMARY KEY ([ContactId])
+);
+2023-08-25 12:06:36.402 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.402 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.402 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MeterType] (
+    [MeterTypeId] int NOT NULL IDENTITY,
+    [TypeShortDescription] nvarchar(255) NOT NULL,
+    [TypeLongDescription] nvarchar(50) NULL,
+    [TypeUnitOfMeasure] nvarchar(150) NULL,
+    CONSTRAINT [PK_MeterType] PRIMARY KEY ([MeterTypeId])
+);
+2023-08-25 12:06:36.413 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MeterType] (
+    [MeterTypeId] int NOT NULL IDENTITY,
+    [TypeShortDescription] nvarchar(255) NOT NULL,
+    [TypeLongDescription] nvarchar(50) NULL,
+    [TypeUnitOfMeasure] nvarchar(150) NULL,
+    CONSTRAINT [PK_MeterType] PRIMARY KEY ([MeterTypeId])
+);
+2023-08-25 12:06:36.413 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.413 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.413 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Meter] (
+    [MeterId] int NOT NULL IDENTITY,
+    [MeterName] nvarchar(255) NULL,
+    [MeterDescription] nvarchar(255) NULL,
+    [MeterTypeId] int NULL,
+    CONSTRAINT [PK_Meter] PRIMARY KEY ([MeterId]),
+    CONSTRAINT [FK_Meter_MeterType_MeterTypeId] FOREIGN KEY ([MeterTypeId]) REFERENCES [MeterType] ([MeterTypeId])
+);
+2023-08-25 12:06:36.421 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Meter] (
+    [MeterId] int NOT NULL IDENTITY,
+    [MeterName] nvarchar(255) NULL,
+    [MeterDescription] nvarchar(255) NULL,
+    [MeterTypeId] int NULL,
+    CONSTRAINT [PK_Meter] PRIMARY KEY ([MeterId]),
+    CONSTRAINT [FK_Meter_MeterType_MeterTypeId] FOREIGN KEY ([MeterTypeId]) REFERENCES [MeterType] ([MeterTypeId])
+);
+2023-08-25 12:06:36.422 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.422 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.422 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MeterReading] (
+    [MeterReadingId] int NOT NULL IDENTITY,
+    [ReadingDatetime] datetime2 NOT NULL,
+    [ReadingValue] float NOT NULL,
+    [MeterId] int NOT NULL,
+    CONSTRAINT [PK_MeterReading] PRIMARY KEY ([MeterReadingId]),
+    CONSTRAINT [FK_MeterReading_Meter_MeterId] FOREIGN KEY ([MeterId]) REFERENCES [Meter] ([MeterId]) ON DELETE CASCADE
+);
+2023-08-25 12:06:36.429 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MeterReading] (
+    [MeterReadingId] int NOT NULL IDENTITY,
+    [ReadingDatetime] datetime2 NOT NULL,
+    [ReadingValue] float NOT NULL,
+    [MeterId] int NOT NULL,
+    CONSTRAINT [PK_MeterReading] PRIMARY KEY ([MeterReadingId]),
+    CONSTRAINT [FK_MeterReading_Meter_MeterId] FOREIGN KEY ([MeterId]) REFERENCES [Meter] ([MeterId]) ON DELETE CASCADE
+);
+2023-08-25 12:06:36.429 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.429 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.429 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Meter_MeterTypeId] ON [Meter] ([MeterTypeId]);
+2023-08-25 12:06:36.432 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Meter_MeterTypeId] ON [Meter] ([MeterTypeId]);
+2023-08-25 12:06:36.432 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.432 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.432 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MeterReading_MeterId] ON [MeterReading] ([MeterId]);
+2023-08-25 12:06:36.435 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MeterReading_MeterId] ON [MeterReading] ([MeterId]);
+2023-08-25 12:06:36.435 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:06:36.435 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:06:36.435 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825040505_metermig', N'6.0.8');
+2023-08-25 12:06:36.444 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825040505_metermig', N'6.0.8');
+2023-08-25 12:06:36.446 +08:00 [DBG] Committing transaction.
+2023-08-25 12:06:36.453 +08:00 [DBG] Committed transaction.
+2023-08-25 12:06:36.455 +08:00 [DBG] Disposing transaction.
+2023-08-25 12:06:36.455 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.456 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:06:36.459 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:07:50.458 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-25 12:07:50.639 +08:00 [DBG] Hosting starting
+2023-08-25 12:07:50.841 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-08-25 12:07:50.885 +08:00 [INF] Now listening on: https://localhost:7195
+2023-08-25 12:07:50.886 +08:00 [INF] Now listening on: http://localhost:5108
+2023-08-25 12:07:50.886 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-08-25 12:07:50.888 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-25 12:07:50.890 +08:00 [INF] Hosting environment: Development
+2023-08-25 12:07:50.890 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-08-25 12:07:50.891 +08:00 [DBG] Hosting started
+2023-08-25 12:21:26.115 +08:00 [INF] Application is shutting down...
+2023-08-25 12:21:26.123 +08:00 [DBG] Hosting stopping
+2023-08-25 12:21:26.172 +08:00 [DBG] Hosting stopped
+2023-08-25 12:22:09.140 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:22:10.141 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:22:10.353 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:22:10.357 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:22:10.358 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:22:10.358 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:22:10.454 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:22:24.704 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:22:25.672 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:22:25.756 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:25.765 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.103 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.112 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:22:26.122 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2023-08-25 12:22:26.137 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:22:26.178 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:22:26.182 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.188 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.195 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:22:26.196 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:22:26.196 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.198 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.199 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:22:26.222 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:22:26.222 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.224 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.226 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.226 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.226 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:22:26.227 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:22:26.228 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:22:26.233 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:22:26.234 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.234 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.234 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:22:26.234 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:22:26.235 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.235 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.235 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:22:26.238 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:22:26.238 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.238 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.278 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-25 12:22:26.279 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-25 12:22:26.279 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.279 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.280 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:22:26.284 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:22:26.287 +08:00 [DBG] A data reader was disposed.
+2023-08-25 12:22:26.288 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.288 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.304 +08:00 [INF] Applying migration '20230825042210_metermig2'.
+2023-08-25 12:22:26.348 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.349 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.351 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-25 12:22:26.362 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-25 12:22:26.363 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:22:26.364 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:22:26.365 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042210_metermig2', N'6.0.8');
+2023-08-25 12:22:26.370 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042210_metermig2', N'6.0.8');
+2023-08-25 12:22:26.372 +08:00 [DBG] Committing transaction.
+2023-08-25 12:22:26.380 +08:00 [DBG] Committed transaction.
+2023-08-25 12:22:26.382 +08:00 [DBG] Disposing transaction.
+2023-08-25 12:22:26.382 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.382 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:22:26.385 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:24:20.631 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:24:21.592 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:24:21.789 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:24:21.792 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:24:21.793 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:24:21.793 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:24:21.881 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:24:49.616 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:24:50.566 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:24:50.647 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:50.657 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.013 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.022 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:24:51.032 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2023-08-25 12:24:51.047 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:24:51.087 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:24:51.092 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.098 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.104 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:24:51.105 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:24:51.105 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.107 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.109 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:24:51.130 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:24:51.131 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.132 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.133 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.134 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.134 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:24:51.134 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:24:51.134 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:24:51.141 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:24:51.141 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.141 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.142 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:24:51.142 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:24:51.142 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.142 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.143 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:24:51.146 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:24:51.147 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.147 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.187 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-25 12:24:51.187 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-25 12:24:51.187 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.187 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.188 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:24:51.193 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:24:51.196 +08:00 [DBG] A data reader was disposed.
+2023-08-25 12:24:51.197 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.197 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.213 +08:00 [INF] Applying migration '20230825042421_metermig3'.
+2023-08-25 12:24:51.257 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.258 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.261 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-25 12:24:51.273 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-25 12:24:51.275 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:24:51.275 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:24:51.276 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042421_metermig3', N'6.0.8');
+2023-08-25 12:24:51.281 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042421_metermig3', N'6.0.8');
+2023-08-25 12:24:51.283 +08:00 [DBG] Committing transaction.
+2023-08-25 12:24:51.292 +08:00 [DBG] Committed transaction.
+2023-08-25 12:24:51.294 +08:00 [DBG] Disposing transaction.
+2023-08-25 12:24:51.294 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.295 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:24:51.297 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:27:42.025 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:27:43.008 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:27:43.253 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:27:43.256 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:27:43.257 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:27:43.258 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:27:43.269 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:27:43.270 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:27:43.270 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-08-25 12:27:43.270 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-08-25 12:27:43.386 +08:00 [DBG] 'SustainContext' disposed.
+2023-08-25 12:28:37.242 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-25 12:28:38.232 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-08-25 12:28:38.310 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.320 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.653 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.663 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.672 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2023-08-25 12:28:38.687 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:28:38.727 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:28:38.731 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.737 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.744 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:28:38.745 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:28:38.745 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.747 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.748 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:28:38.771 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:28:38.771 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.773 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.774 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.776 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.776 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.776 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.776 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:28:38.782 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-08-25 12:28:38.782 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.782 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.783 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-08-25 12:28:38.783 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-08-25 12:28:38.783 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.783 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.784 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:28:38.788 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-08-25 12:28:38.788 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.788 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.829 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-08-25 12:28:38.829 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-08-25 12:28:38.829 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.830 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.830 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:28:38.834 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-08-25 12:28:38.838 +08:00 [DBG] A data reader was disposed.
+2023-08-25 12:28:38.838 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.838 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.854 +08:00 [INF] Applying migration '20230825042743_metermig4'.
+2023-08-25 12:28:38.932 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.933 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.935 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-08-25 12:28:38.945 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-08-25 12:28:38.946 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.946 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.947 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Meter] ADD [SchoolId] int NULL;
+2023-08-25 12:28:38.975 +08:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Meter] ADD [SchoolId] int NULL;
+2023-08-25 12:28:38.976 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.976 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.976 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [School] (
+    [SchoolId] int NOT NULL IDENTITY,
+    [SchoolName] nvarchar(100) NULL,
+    [SchoolLocation] nvarchar(100) NULL,
+    [SchoolType] nvarchar(4) NULL,
+    CONSTRAINT [PK_School] PRIMARY KEY ([SchoolId])
+);
+2023-08-25 12:28:38.980 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [School] (
+    [SchoolId] int NOT NULL IDENTITY,
+    [SchoolName] nvarchar(100) NULL,
+    [SchoolLocation] nvarchar(100) NULL,
+    [SchoolType] nvarchar(4) NULL,
+    CONSTRAINT [PK_School] PRIMARY KEY ([SchoolId])
+);
+2023-08-25 12:28:38.980 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.980 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.980 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Meter_SchoolId] ON [Meter] ([SchoolId]);
+2023-08-25 12:28:38.982 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Meter_SchoolId] ON [Meter] ([SchoolId]);
+2023-08-25 12:28:38.982 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.982 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.982 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Meter] ADD CONSTRAINT [FK_Meter_School_SchoolId] FOREIGN KEY ([SchoolId]) REFERENCES [School] ([SchoolId]);
+2023-08-25 12:28:38.984 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Meter] ADD CONSTRAINT [FK_Meter_School_SchoolId] FOREIGN KEY ([SchoolId]) REFERENCES [School] ([SchoolId]);
+2023-08-25 12:28:38.984 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-25 12:28:38.984 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-08-25 12:28:38.984 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042743_metermig4', N'6.0.8');
+2023-08-25 12:28:38.986 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230825042743_metermig4', N'6.0.8');
+2023-08-25 12:28:38.989 +08:00 [DBG] Committing transaction.
+2023-08-25 12:28:38.996 +08:00 [DBG] Committed transaction.
+2023-08-25 12:28:38.998 +08:00 [DBG] Disposing transaction.
+2023-08-25 12:28:38.998 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:38.998 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-08-25 12:28:39.001 +08:00 [DBG] 'SustainContext' disposed.

@@ -1,14 +1,14 @@
-using Contacts.DbContexts;
-using Contacts.Entities;
+using Sustain.DbContexts;
+using Sustain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Contacts.Services
+namespace Sustain.Services
 {
     public class ContactRepository : IContactRepository
     {
-        private readonly ContactContext _context;
+        private readonly SustainContext _context;
         private readonly ILogger<ContactRepository> _logger;
-        public ContactRepository(ContactContext context, ILogger<ContactRepository> logger)
+        public ContactRepository(SustainContext context, ILogger<ContactRepository> logger)
         {
             _context = context;
             _logger = logger;

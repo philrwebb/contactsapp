@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bw1BsHlWyl8u5INNK5Qv6WWgPorLy2SS8HYRBLkZmtVV0jr0bVtJWoW6lUqcaJyfkIrs0+ea6fDh9OhMoqiwdw==",
+  "dgSpecHash": "b6/eNNvo2IrRO9Qm9fWyGfaHK9bLvqXlmkAWsFnE1O/9gqX5cBJwUg4ZGVs2e+dOeGNvqShXhHnD5n4gDm+/pg==",
   "success": true,
-  "projectFilePath": "/Volumes/Samsung_T5/Development/dotnet/contactsapp/contactsapp.csproj",
+  "projectFilePath": "/Users/philipwebb/Development/dotnetangular/contactsapp/contactsapp.csproj",
   "expectedPackageFiles": [
     "/Users/philipwebb/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/philipwebb/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -201,7 +201,10 @@
     "/Users/philipwebb/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/philipwebb/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/philipwebb/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/philipwebb/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/Users/philipwebb/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/Users/philipwebb/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/Users/philipwebb/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "/Users/philipwebb/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.13/microsoft.netcore.app.host.osx-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace Contacts.Models
+namespace Sustain.Models
 {
     public class ContactCreateDto
     {

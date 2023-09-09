@@ -1,5 +1,5 @@
-using Contacts.Services;
-using Contacts.DbContexts;
+using Sustain.Services;
+using Sustain.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -21,8 +21,10 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
-builder.Services.AddDbContext<ContactContext>(options => options.UseSqlServer(builder.Configuration["ConnectionStrings:TestConnection"]));
+builder.Services.AddDbContext<SustainContext>(options => options.UseSqlServer(builder.Configuration["ConnectionStrings:Connection"]));
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
+builder.Services.AddScoped<IMeterRepository, MeterRepository>();
+builder.Services.AddScoped<ISchoolRepository, SchoolRepository>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();

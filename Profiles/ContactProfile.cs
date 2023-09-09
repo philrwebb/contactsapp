@@ -1,6 +1,7 @@
 using AutoMapper;
+using Sustain.Models;
 
-namespace Contacts.Profiles
+namespace Sustain.Profiles
 {
     public class ContactProfile : Profile
     {

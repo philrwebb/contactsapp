@@ -1,4 +1,4 @@
-namespace Contacts.Models
+namespace Sustain.Models
 {
     public class ContactUpdateDto
     {
