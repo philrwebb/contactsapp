@@ -1,0 +1,1217 @@
+2023-09-09 11:31:09.895 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 11:31:10.023 +08:00 [DBG] Hosting starting
+2023-09-09 11:31:10.710 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 11:31:10.713 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 11:31:10.715 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 11:31:10.771 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 11:31:10.801 +08:00 [INF] Hosting environment: Development
+2023-09-09 11:31:10.802 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp
+2023-09-09 11:31:10.803 +08:00 [DBG] Hosting started
+2023-09-09 11:31:10.846 +08:00 [DBG] Connection id "0HMTGSKR5530N" accepted.
+2023-09-09 11:31:10.848 +08:00 [DBG] Connection id "0HMTGSKR5530N" started.
+2023-09-09 11:31:11.590 +08:00 [DBG] Connection id "0HMTGSKR5530N" received FIN.
+2023-09-09 11:31:11.612 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-09 11:31:11.659 +08:00 [DBG] Connection id "0HMTGSKR5530N" stopped.
+2023-09-09 11:31:11.698 +08:00 [DBG] Connection id "0HMTGSKR5530N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 11:31:11.725 +08:00 [DBG] Connection id "0HMTGSKR5530O" accepted.
+2023-09-09 11:31:11.727 +08:00 [DBG] Connection id "0HMTGSKR5530O" started.
+2023-09-09 11:31:11.826 +08:00 [DBG] Connection 0HMTGSKR5530O established using the following protocol: "Tls12"
+2023-09-09 11:31:11.874 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 11:31:11.876 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 11:31:11.917 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 11:31:11.917 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:12.043 +08:00 [DBG] Connection id "0HMTGSKR5530O" completed keep alive response.
+2023-09-09 11:31:12.072 +08:00 [DBG] Connection id "0HMTGSKR5530P" accepted.
+2023-09-09 11:31:12.073 +08:00 [DBG] Connection id "0HMTGSKR5530P" started.
+2023-09-09 11:31:12.074 +08:00 [DBG] Connection id "0HMTGSKR5530Q" accepted.
+2023-09-09 11:31:12.074 +08:00 [DBG] Connection id "0HMTGSKR5530Q" started.
+2023-09-09 11:31:12.080 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 200.5510ms
+2023-09-09 11:31:12.085 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui.css - -
+2023-09-09 11:31:12.086 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-09 11:31:12.086 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:12.365 +08:00 [DBG] Connection 0HMTGSKR5530P established using the following protocol: "Tls12"
+2023-09-09 11:31:12.365 +08:00 [DBG] Connection 0HMTGSKR5530Q established using the following protocol: "Tls12"
+2023-09-09 11:31:12.376 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-bundle.js - -
+2023-09-09 11:31:12.376 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - -
+2023-09-09 11:31:12.377 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-09 11:31:12.378 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-09 11:31:12.378 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:12.378 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:12.446 +08:00 [DBG] Connection id "0HMTGSKR5530R" accepted.
+2023-09-09 11:31:12.472 +08:00 [DBG] Connection id "0HMTGSKR5530R" started.
+2023-09-09 11:31:12.472 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-09 11:31:12.472 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-09 11:31:12.473 +08:00 [DBG] Connection id "0HMTGSKR5530Q" completed keep alive response.
+2023-09-09 11:31:12.473 +08:00 [DBG] Connection id "0HMTGSKR5530O" completed keep alive response.
+2023-09-09 11:31:12.644 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 122.7854ms
+2023-09-09 11:31:12.644 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui.css - - - 200 143632 text/css 413.7479ms
+2023-09-09 11:31:12.671 +08:00 [DBG] Connection 0HMTGSKR5530R established using the following protocol: "Tls12"
+2023-09-09 11:31:12.791 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - -
+2023-09-09 11:31:12.792 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-09 11:31:12.792 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:13.574 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-09 11:31:13.574 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-09 11:31:13.859 +08:00 [DBG] Connection id "0HMTGSKR5530R" completed keep alive response.
+2023-09-09 11:31:13.859 +08:00 [DBG] Connection id "0HMTGSKR5530P" completed keep alive response.
+2023-09-09 11:31:13.859 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 1068.5048ms
+2023-09-09 11:31:13.859 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 1482.8854ms
+2023-09-09 11:31:13.860 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-bundle.js - -
+2023-09-09 11:31:13.860 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 11:31:13.861 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-09 11:31:13.861 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 11:31:13.861 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:13.861 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 11:31:14.350 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-09 11:31:14.355 +08:00 [DBG] Connection id "0HMTGSKR5530R" completed keep alive response.
+2023-09-09 11:31:14.356 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 495.7846ms
+2023-09-09 11:31:14.529 +08:00 [DBG] Connection id "0HMTGSKR5530P" completed keep alive response.
+2023-09-09 11:31:14.530 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 669.4844ms
+2023-09-09 14:07:48.252 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:07:48.592 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:07:48.664 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:07:48.666 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:07:48.666 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:07:48.666 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:07:48.668 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:07:48.668 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:07:48.668 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:07:48.668 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:07:48.708 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:08:27.668 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:08:28.017 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:08:28.046 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-09-09 14:08:28.049 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:08:42.743 +08:00 [DBG] An error occurred using the connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:08:42.751 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:09:27.224 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:09:27.577 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:09:27.604 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.607 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.768 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.772 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:09:27.775 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-09-09 14:09:27.779 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:09:27.796 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:09:27.797 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.799 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.801 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-09 14:09:27.802 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-09 14:09:27.802 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.802 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.802 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:09:27.814 +08:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:09:27.814 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.815 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.815 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.815 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.815 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:09:27.815 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:09:27.815 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:09:27.818 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:09:27.819 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.819 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.819 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-09 14:09:27.819 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-09 14:09:27.819 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.819 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.819 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:09:27.822 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:09:27.822 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.822 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.830 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:09:27.831 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-09 14:09:27.831 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.831 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.831 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-09-09 14:09:27.838 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-09-09 14:09:27.839 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:09:27.839 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.839 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.849 +08:00 [INF] Applying migration '20230909060748_metermig6'.
+2023-09-09 14:09:27.872 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.872 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.873 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:09:27.878 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:09:27.879 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:09:27.879 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:09:27.879 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SchoolType] (
+    [SchoolTypeId] int NOT NULL IDENTITY,
+    [TypeShortDescription] nvarchar(255) NOT NULL,
+    [TypeLongDescription] nvarchar(50) NULL,
+    CONSTRAINT [PK_SchoolType] PRIMARY KEY ([SchoolTypeId])
+);
+2023-09-09 14:09:27.901 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SchoolType] (
+    [SchoolTypeId] int NOT NULL IDENTITY,
+    [TypeShortDescription] nvarchar(255) NOT NULL,
+    [TypeLongDescription] nvarchar(50) NULL,
+    CONSTRAINT [PK_SchoolType] PRIMARY KEY ([SchoolTypeId])
+);
+2023-09-09 14:09:27.902 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:09:27.902 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:09:27.902 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230909060748_metermig6', N'6.0.8');
+2023-09-09 14:09:27.905 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230909060748_metermig6', N'6.0.8');
+2023-09-09 14:09:27.906 +08:00 [DBG] Committing transaction.
+2023-09-09 14:09:27.909 +08:00 [DBG] Committed transaction.
+2023-09-09 14:09:27.909 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:09:27.909 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.910 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:09:27.910 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:16:27.101 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:16:27.441 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:16:27.504 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:16:27.505 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:16:27.505 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:16:27.505 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:16:27.510 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:16:27.510 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:16:27.510 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:16:27.510 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:16:27.552 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:16:43.346 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:16:43.684 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:16:43.711 +08:00 [DBG] Migrating using database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.714 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.939 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.943 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:43.947 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-09-09 14:16:43.952 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:16:43.969 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:16:43.970 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.972 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.974 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-09 14:16:43.974 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-09 14:16:43.974 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.975 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.975 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:16:43.986 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:16:43.986 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.986 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.987 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.987 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.987 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:43.987 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:43.987 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:16:43.989 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-09 14:16:43.989 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.989 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.989 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-09 14:16:43.989 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-09 14:16:43.989 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.990 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.990 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:16:43.990 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-09 14:16:43.991 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:43.991 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.000 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:16:44.000 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-09 14:16:44.000 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.000 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.000 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-09-09 14:16:44.004 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-09-09 14:16:44.005 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:16:44.005 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.005 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.016 +08:00 [INF] Applying migration '20230909061627_metermig7'.
+2023-09-09 14:16:44.036 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.036 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.037 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:16:44.042 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:16:44.042 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:44.042 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:44.042 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[School]') AND [c].[name] = N'SchoolType');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [School] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [School] DROP COLUMN [SchoolType];
+2023-09-09 14:16:44.145 +08:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[School]') AND [c].[name] = N'SchoolType');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [School] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [School] DROP COLUMN [SchoolType];
+2023-09-09 14:16:44.146 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:44.146 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:44.146 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [School] ADD [SchoolTypeId] int NULL;
+2023-09-09 14:16:44.149 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [School] ADD [SchoolTypeId] int NULL;
+2023-09-09 14:16:44.149 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:44.149 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:44.149 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_School_SchoolTypeId] ON [School] ([SchoolTypeId]);
+2023-09-09 14:16:44.166 +08:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_School_SchoolTypeId] ON [School] ([SchoolTypeId]);
+2023-09-09 14:16:44.166 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:44.166 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:44.166 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [School] ADD CONSTRAINT [FK_School_SchoolType_SchoolTypeId] FOREIGN KEY ([SchoolTypeId]) REFERENCES [SchoolType] ([SchoolTypeId]);
+2023-09-09 14:16:44.172 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [School] ADD CONSTRAINT [FK_School_SchoolType_SchoolTypeId] FOREIGN KEY ([SchoolTypeId]) REFERENCES [SchoolType] ([SchoolTypeId]);
+2023-09-09 14:16:44.172 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-09 14:16:44.172 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-09 14:16:44.172 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230909061627_metermig7', N'6.0.8');
+2023-09-09 14:16:44.175 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230909061627_metermig7', N'6.0.8');
+2023-09-09 14:16:44.175 +08:00 [DBG] Committing transaction.
+2023-09-09 14:16:44.179 +08:00 [DBG] Committed transaction.
+2023-09-09 14:16:44.180 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:16:44.180 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.180 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:16:44.180 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:40:48.334 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 14:40:48.380 +08:00 [DBG] Hosting starting
+2023-09-09 14:41:02.774 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-09 14:41:02.794 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 14:41:02.794 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 14:41:02.795 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 14:41:02.795 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-09 14:41:02.795 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 14:41:02.795 +08:00 [INF] Hosting environment: Development
+2023-09-09 14:41:02.795 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-09 14:41:02.795 +08:00 [DBG] Hosting started
+2023-09-09 14:41:03.072 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" accepted.
+2023-09-09 14:41:03.074 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" started.
+2023-09-09 14:41:03.131 +08:00 [DBG] Connection 0HMTGVUU9T5ND established using the following protocol: "Tls12"
+2023-09-09 14:41:03.149 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:41:03.153 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 14:41:03.163 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:41:03.163 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:41:03.202 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:41:03.205 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:41:03.205 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" completed keep alive response.
+2023-09-09 14:41:03.207 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 59.6677ms
+2023-09-09 14:41:03.233 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:41:03.234 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" completed keep alive response.
+2023-09-09 14:41:03.234 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.6715ms
+2023-09-09 14:41:03.318 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:41:03.318 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:41:03.318 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:41:03.380 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" completed keep alive response.
+2023-09-09 14:41:03.380 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 62.3058ms
+2023-09-09 14:41:46.373 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 100
+2023-09-09 14:41:46.380 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 14:41:46.385 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 14:41:46.386 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:41:46.387 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-09-09 14:41:46.387 +08:00 [INF] CORS policy execution successful.
+2023-09-09 14:41:46.389 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 14:41:46.392 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:41:46.420 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 14:41:46.421 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 14:41:46.421 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 14:41:46.421 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 14:41:46.421 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 14:41:46.421 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 14:41:46.422 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:41:46.500 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:41:46.577 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:41:46.578 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:41:46.578 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-09-09 14:41:46.578 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:41:46.578 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:41:46.580 +08:00 [DBG] Connection id "0HMTGVUU9T5ND", Request id "0HMTGVUU9T5ND:00000005": started reading request body.
+2023-09-09 14:41:46.580 +08:00 [DBG] Connection id "0HMTGVUU9T5ND", Request id "0HMTGVUU9T5ND:00000005": done reading request body.
+2023-09-09 14:41:46.634 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:41:46.634 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:41:46.634 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:41:46.637 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:41:46.951 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:41:46.967 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:41:46.989 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:41:46.991 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-09-09 14:41:46.993 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:41:46.997 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:41:47.020 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:41:47.148 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:41:47.149 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:41:47.157 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:41:47.185 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:41:47.188 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-09-09 14:41:47.197 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:41:47.237 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:41:47.250 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-09-09 14:41:47.255 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:41:47.258 +08:00 [DBG] Committing transaction.
+2023-09-09 14:41:47.267 +08:00 [DBG] Committed transaction.
+2023-09-09 14:41:47.268 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:41:47.270 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:41:47.271 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:41:47.277 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:41:47.278 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-09-09 14:41:47.281 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 14:41:47.282 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 14:41:47.282 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 14:41:47.282 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 14:41:47.282 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 14:41:47.282 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 14:41:47.282 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-09-09 14:41:47.313 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 889.7228ms
+2023-09-09 14:41:47.314 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:41:47.314 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" completed keep alive response.
+2023-09-09 14:41:47.315 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:41:47.316 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 100 - 200 113 application/json;+charset=utf-8 942.6070ms
+2023-09-09 14:43:57.585 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" disconnecting.
+2023-09-09 14:43:57.592 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" stopped.
+2023-09-09 14:43:57.593 +08:00 [DBG] Connection id "0HMTGVUU9T5ND" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 14:43:58.632 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" accepted.
+2023-09-09 14:43:58.633 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" started.
+2023-09-09 14:43:58.661 +08:00 [DBG] Connection 0HMTGVUU9T5NE established using the following protocol: "Tls12"
+2023-09-09 14:43:58.661 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:43:58.661 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:43:58.661 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:43:58.665 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:43:58.665 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:43:58.665 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" completed keep alive response.
+2023-09-09 14:43:58.666 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 4.3361ms
+2023-09-09 14:43:58.706 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:43:58.706 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" completed keep alive response.
+2023-09-09 14:43:58.707 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.5063ms
+2023-09-09 14:43:58.816 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:43:58.816 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:43:58.816 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:43:58.828 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" completed keep alive response.
+2023-09-09 14:43:58.828 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.9094ms
+2023-09-09 14:44:42.887 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 104
+2023-09-09 14:44:42.888 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 14:44:42.888 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 14:44:42.889 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:44:42.889 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-09-09 14:44:42.889 +08:00 [INF] CORS policy execution successful.
+2023-09-09 14:44:42.889 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 14:44:42.889 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:44:42.893 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 14:44:42.893 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 14:44:42.893 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 14:44:42.893 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 14:44:42.893 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 14:44:42.894 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 14:44:42.894 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:44:42.895 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:44:42.895 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:44:42.895 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-09-09 14:44:42.896 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:44:42.896 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:44:42.896 +08:00 [DBG] Connection id "0HMTGVUU9T5NE", Request id "0HMTGVUU9T5NE:00000005": started reading request body.
+2023-09-09 14:44:42.896 +08:00 [DBG] Connection id "0HMTGVUU9T5NE", Request id "0HMTGVUU9T5NE:00000005": done reading request body.
+2023-09-09 14:44:42.896 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:44:42.896 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:44:42.896 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:44:42.898 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:44:42.936 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:44:42.936 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:44:42.936 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:44:42.936 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-09-09 14:44:42.937 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:44:42.937 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:44:42.937 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:44:42.938 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:44:42.938 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:44:42.942 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:44:42.943 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:44:42.943 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-09 14:44:42.944 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:44:42.948 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:44:42.949 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-09-09 14:44:42.949 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:44:42.949 +08:00 [DBG] Committing transaction.
+2023-09-09 14:44:42.954 +08:00 [DBG] Committed transaction.
+2023-09-09 14:44:42.954 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:44:42.954 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:44:42.954 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:44:42.955 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:44:42.955 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-09-09 14:44:42.955 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 14:44:42.955 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 14:44:42.955 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 14:44:42.955 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 14:44:42.955 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 14:44:42.955 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 14:44:42.955 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-09-09 14:44:42.956 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 62.0195ms
+2023-09-09 14:44:42.956 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:44:42.956 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" completed keep alive response.
+2023-09-09 14:44:42.956 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:44:42.956 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 104 - 200 117 application/json;+charset=utf-8 68.8211ms
+2023-09-09 14:45:45.217 +08:00 [INF] Application is shutting down...
+2023-09-09 14:45:45.218 +08:00 [DBG] Hosting stopping
+2023-09-09 14:45:45.224 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" disconnecting.
+2023-09-09 14:45:45.224 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" stopped.
+2023-09-09 14:45:45.224 +08:00 [DBG] Connection id "0HMTGVUU9T5NE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 14:45:45.227 +08:00 [DBG] Hosting stopped
+2023-09-09 14:45:52.662 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 14:45:52.709 +08:00 [DBG] Hosting starting
+2023-09-09 14:45:52.766 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-09 14:45:52.773 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 14:45:52.773 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 14:45:52.773 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 14:45:52.773 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-09 14:45:52.773 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 14:45:52.773 +08:00 [INF] Hosting environment: Development
+2023-09-09 14:45:52.773 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-09 14:45:52.774 +08:00 [DBG] Hosting started
+2023-09-09 14:45:52.973 +08:00 [DBG] Connection id "0HMTH01KMIN1N" accepted.
+2023-09-09 14:45:52.974 +08:00 [DBG] Connection id "0HMTH01KMIN1N" started.
+2023-09-09 14:45:53.071 +08:00 [DBG] Connection 0HMTH01KMIN1N established using the following protocol: "Tls12"
+2023-09-09 14:45:53.100 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:45:53.111 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 14:45:53.136 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:45:53.136 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:45:53.212 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:45:53.219 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:45:53.220 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:45:53.234 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 134.6271ms
+2023-09-09 14:45:53.250 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:45:53.251 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:45:53.251 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.1482ms
+2023-09-09 14:45:53.339 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:45:53.340 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:45:53.340 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:45:53.424 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:45:53.425 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.3496ms
+2023-09-09 14:46:30.695 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 105
+2023-09-09 14:46:30.702 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 14:46:30.706 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 14:46:30.707 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:46:30.710 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-09-09 14:46:30.710 +08:00 [INF] CORS policy execution successful.
+2023-09-09 14:46:30.713 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 14:46:30.716 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:46:30.745 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 14:46:30.745 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 14:46:30.745 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 14:46:30.746 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 14:46:30.746 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 14:46:30.746 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 14:46:30.746 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:46:30.817 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:46:30.901 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:46:30.902 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:46:30.902 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-09-09 14:46:30.903 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:46:30.903 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:46:30.904 +08:00 [DBG] Connection id "0HMTH01KMIN1N", Request id "0HMTH01KMIN1N:00000005": started reading request body.
+2023-09-09 14:46:30.904 +08:00 [DBG] Connection id "0HMTH01KMIN1N", Request id "0HMTH01KMIN1N:00000005": done reading request body.
+2023-09-09 14:46:30.950 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:46:30.950 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:46:30.950 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:46:30.953 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:46:31.266 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:46:31.283 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:46:31.306 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:46:31.307 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-09-09 14:46:31.309 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:46:31.313 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:46:31.338 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:46:31.459 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:46:31.460 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:46:31.467 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:46:31.495 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:46:31.499 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-09-09 14:46:31.507 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:46:31.533 +08:00 [INF] Executed DbCommand (28ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:46:31.546 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-09-09 14:46:31.552 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:46:31.554 +08:00 [DBG] Committing transaction.
+2023-09-09 14:46:31.560 +08:00 [DBG] Committed transaction.
+2023-09-09 14:46:31.562 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:46:31.564 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:46:31.564 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:46:31.570 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:46:31.571 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-09-09 14:46:31.573 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 14:46:31.574 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 14:46:31.574 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 14:46:31.574 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 14:46:31.574 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 14:46:31.574 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 14:46:31.574 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-09-09 14:46:31.596 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 847.9452ms
+2023-09-09 14:46:31.596 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:46:31.597 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:46:31.598 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:46:31.599 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 105 - 200 118 application/json;+charset=utf-8 903.6065ms
+2023-09-09 14:47:34.883 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:47:34.883 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:47:34.883 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:47:34.885 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:47:34.886 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:47:34.886 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:34.886 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 2.9135ms
+2023-09-09 14:47:34.946 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:47:34.974 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:34.975 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 28.8500ms
+2023-09-09 14:47:35.044 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:47:35.044 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:47:35.044 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:47:35.052 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:35.052 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.5250ms
+2023-09-09 14:47:50.027 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:47:50.027 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:47:50.027 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:47:50.029 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:47:50.029 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:47:50.029 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:50.029 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 2.3117ms
+2023-09-09 14:47:50.062 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:47:50.062 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:50.062 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3962ms
+2023-09-09 14:47:50.140 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:47:50.140 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:47:50.140 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:47:50.144 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:47:50.144 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.1508ms
+2023-09-09 14:47:50.346 +08:00 [DBG] Connection id "0HMTH01KMIN1O" accepted.
+2023-09-09 14:47:50.346 +08:00 [DBG] Connection id "0HMTH01KMIN1O" started.
+2023-09-09 14:47:50.367 +08:00 [DBG] Connection 0HMTH01KMIN1O established using the following protocol: "Tls12"
+2023-09-09 14:47:50.367 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:47:50.367 +08:00 [DBG] Connection id "0HMTH01KMIN1O" completed keep alive response.
+2023-09-09 14:47:50.367 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.1287ms
+2023-09-09 14:48:48.158 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 100
+2023-09-09 14:48:48.159 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 14:48:48.159 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 14:48:48.159 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:48:48.159 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-09-09 14:48:48.159 +08:00 [INF] CORS policy execution successful.
+2023-09-09 14:48:48.159 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 14:48:48.159 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:48:48.163 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 14:48:48.163 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 14:48:48.163 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 14:48:48.163 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 14:48:48.164 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 14:48:48.164 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 14:48:48.164 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:48:48.164 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:48:48.165 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:48:48.165 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-09-09 14:48:48.165 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:48:48.165 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:48:48.165 +08:00 [DBG] Connection id "0HMTH01KMIN1N", Request id "0HMTH01KMIN1N:0000000C": started reading request body.
+2023-09-09 14:48:48.166 +08:00 [DBG] Connection id "0HMTH01KMIN1N", Request id "0HMTH01KMIN1N:0000000C": done reading request body.
+2023-09-09 14:48:48.166 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:48:48.166 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:48:48.166 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:48:48.168 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:48:48.208 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:48:48.209 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:48:48.209 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:48:48.209 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-09-09 14:48:48.210 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:48:48.210 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:48:48.210 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:48:48.211 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:48:48.211 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:48:48.215 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:48:48.215 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:48:48.215 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-09 14:48:48.216 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:48:48.221 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:48:48.222 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-09-09 14:48:48.222 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:48:48.223 +08:00 [DBG] Committing transaction.
+2023-09-09 14:48:48.229 +08:00 [DBG] Committed transaction.
+2023-09-09 14:48:48.229 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:48:48.229 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:48:48.229 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:48:48.229 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:48:48.229 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-09-09 14:48:48.230 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 66.8124ms
+2023-09-09 14:48:48.231 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:48:48.231 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+School -> SchoolDto
+Sustain.Entities.School -> Sustain.Models.SchoolDto
+
+Type Map configuration:
+School -> SchoolDto
+Sustain.Entities.School -> Sustain.Models.SchoolDto
+
+Destination Member:
+SchoolType
+
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Sustain.Models.SchoolDto.set_SchoolType(String value)
+   at lambda_method84(Closure , Object , SchoolDto , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method84(Closure , Object , SchoolDto , ResolutionContext )
+   at Sustain.Controllers.SchoolController.CreateSchoolAsync(CreateSchoolDto schoolCreateDto)
+   at lambda_method97(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-09 14:48:48.245 +08:00 [DBG] Connection id "0HMTH01KMIN1N" completed keep alive response.
+2023-09-09 14:48:48.248 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:48:48.248 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 100 - 500 - text/plain;+charset=utf-8 89.9651ms
+2023-09-09 14:49:34.204 +08:00 [INF] Application is shutting down...
+2023-09-09 14:49:34.205 +08:00 [DBG] Hosting stopping
+2023-09-09 14:49:34.220 +08:00 [DBG] Connection id "0HMTH01KMIN1O" disconnecting.
+2023-09-09 14:49:34.220 +08:00 [DBG] Connection id "0HMTH01KMIN1N" disconnecting.
+2023-09-09 14:49:34.222 +08:00 [DBG] Connection id "0HMTH01KMIN1O" stopped.
+2023-09-09 14:49:34.222 +08:00 [DBG] Connection id "0HMTH01KMIN1N" stopped.
+2023-09-09 14:49:34.223 +08:00 [DBG] Connection id "0HMTH01KMIN1O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 14:49:34.223 +08:00 [DBG] Connection id "0HMTH01KMIN1N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 14:49:34.226 +08:00 [DBG] Hosting stopped
+2023-09-09 14:49:58.795 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 14:49:58.840 +08:00 [DBG] Hosting starting
+2023-09-09 14:49:58.898 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-09 14:49:58.905 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 14:49:58.905 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 14:49:58.905 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 14:49:58.905 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-09 14:49:58.905 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 14:49:58.905 +08:00 [INF] Hosting environment: Development
+2023-09-09 14:49:58.905 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-09 14:49:58.905 +08:00 [DBG] Hosting started
+2023-09-09 14:49:59.110 +08:00 [DBG] Connection id "0HMTH03U1RVQH" accepted.
+2023-09-09 14:49:59.111 +08:00 [DBG] Connection id "0HMTH03U1RVQH" started.
+2023-09-09 14:49:59.201 +08:00 [DBG] Connection 0HMTH03U1RVQH established using the following protocol: "Tls12"
+2023-09-09 14:49:59.231 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 14:49:59.240 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 14:49:59.254 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 14:49:59.254 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:49:59.315 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 14:49:59.319 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 14:49:59.319 +08:00 [DBG] Connection id "0HMTH03U1RVQH" completed keep alive response.
+2023-09-09 14:49:59.320 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 91.5485ms
+2023-09-09 14:49:59.351 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 14:49:59.352 +08:00 [DBG] Connection id "0HMTH03U1RVQH" completed keep alive response.
+2023-09-09 14:49:59.353 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.3380ms
+2023-09-09 14:49:59.433 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 14:49:59.434 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 14:49:59.434 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 14:49:59.511 +08:00 [DBG] Connection id "0HMTH03U1RVQH" completed keep alive response.
+2023-09-09 14:49:59.511 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.0209ms
+2023-09-09 14:50:40.295 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 94
+2023-09-09 14:50:40.302 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 14:50:40.307 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 14:50:40.308 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:50:40.309 +08:00 [DBG] The request has an origin header: 'https://localhost:7195'.
+2023-09-09 14:50:40.309 +08:00 [INF] CORS policy execution successful.
+2023-09-09 14:50:40.310 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 14:50:40.312 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:50:40.335 +08:00 [INF] Route matched with {action = "CreateSchool", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] CreateSchoolAsync(Sustain.Models.CreateSchoolDto) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 14:50:40.336 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 14:50:40.336 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 14:50:40.336 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 14:50:40.336 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 14:50:40.336 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 14:50:40.336 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:50:40.395 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 14:50:40.469 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 14:50:40.469 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:50:40.470 +08:00 [DBG] Attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' using the name '' in request data ...
+2023-09-09 14:50:40.470 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:50:40.470 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-09 14:50:40.472 +08:00 [DBG] Connection id "0HMTH03U1RVQH", Request id "0HMTH03U1RVQH:00000005": started reading request body.
+2023-09-09 14:50:40.472 +08:00 [DBG] Connection id "0HMTH03U1RVQH", Request id "0HMTH03U1RVQH:00000005": done reading request body.
+2023-09-09 14:50:40.522 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:50:40.522 +08:00 [DBG] Done attempting to bind parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:50:40.522 +08:00 [DBG] Attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto' ...
+2023-09-09 14:50:40.525 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolCreateDto' of type 'Sustain.Models.CreateSchoolDto'.
+2023-09-09 14:50:40.836 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 14:50:40.852 +08:00 [DBG] 'SustainContext' generated a temporary value for the property 'SchoolId.School'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:50:40.875 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:50:40.877 +08:00 [DBG] SaveChanges starting for 'SustainContext'.
+2023-09-09 14:50:40.879 +08:00 [DBG] DetectChanges starting for 'SustainContext'.
+2023-09-09 14:50:40.882 +08:00 [DBG] DetectChanges completed for 'SustainContext'.
+2023-09-09 14:50:40.907 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:50:41.023 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:50:41.024 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-09 14:50:41.030 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-09-09 14:50:41.059 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 14:50:41.062 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-09-09 14:50:41.070 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:50:41.099 +08:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [School] ([SchoolLocation], [SchoolName], [SchoolTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [SchoolId]
+FROM [School]
+WHERE @@ROWCOUNT = 1 AND [SchoolId] = scope_identity();
+2023-09-09 14:50:41.112 +08:00 [DBG] The foreign key property 'School.SchoolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-09-09 14:50:41.117 +08:00 [DBG] A data reader was disposed.
+2023-09-09 14:50:41.119 +08:00 [DBG] Committing transaction.
+2023-09-09 14:50:41.127 +08:00 [DBG] Committed transaction.
+2023-09-09 14:50:41.128 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:50:41.130 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 14:50:41.131 +08:00 [DBG] Disposing transaction.
+2023-09-09 14:50:41.136 +08:00 [DBG] An entity of type 'School' tracked by 'SustainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 14:50:41.137 +08:00 [DBG] SaveChanges completed for 'SustainContext' with 1 entities written to the database.
+2023-09-09 14:50:41.140 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 14:50:41.141 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 14:50:41.142 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 14:50:41.142 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 14:50:41.142 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 14:50:41.142 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 14:50:41.142 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-09-09 14:50:41.163 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp) in 824.8284ms
+2023-09-09 14:50:41.163 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.CreateSchoolAsync (contactsapp)'
+2023-09-09 14:50:41.164 +08:00 [DBG] Connection id "0HMTH03U1RVQH" completed keep alive response.
+2023-09-09 14:50:41.165 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 14:50:41.165 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/api/School application/json-patch+json 94 - 200 107 application/json;+charset=utf-8 870.5415ms
+2023-09-09 14:52:52.028 +08:00 [DBG] Connection id "0HMTH03U1RVQH" disconnecting.
+2023-09-09 14:52:52.033 +08:00 [DBG] Connection id "0HMTH03U1RVQH" stopped.
+2023-09-09 14:52:52.034 +08:00 [DBG] Connection id "0HMTH03U1RVQH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:34:18.235 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 15:34:18.279 +08:00 [DBG] Hosting starting
+2023-09-09 15:34:18.357 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-09 15:34:18.363 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 15:34:18.363 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 15:34:18.363 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 15:34:18.363 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-09 15:34:18.363 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 15:34:18.364 +08:00 [INF] Hosting environment: Development
+2023-09-09 15:34:18.364 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-09 15:34:18.364 +08:00 [DBG] Hosting started
+2023-09-09 15:34:18.391 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" accepted.
+2023-09-09 15:34:18.392 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" started.
+2023-09-09 15:34:18.435 +08:00 [DBG] Connection 0HMTH0SMIR6CJ established using the following protocol: "Tls12"
+2023-09-09 15:34:18.450 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 15:34:18.455 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 15:34:18.463 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 15:34:18.463 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:34:18.498 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 15:34:18.500 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 15:34:18.500 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" completed keep alive response.
+2023-09-09 15:34:18.501 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 52.0544ms
+2023-09-09 15:34:18.532 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:34:18.535 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" completed keep alive response.
+2023-09-09 15:34:18.536 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 3.0506ms
+2023-09-09 15:34:18.541 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" accepted.
+2023-09-09 15:34:18.541 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" started.
+2023-09-09 15:34:18.567 +08:00 [DBG] Connection 0HMTH0SMIR6CK established using the following protocol: "Tls12"
+2023-09-09 15:34:18.569 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:34:18.569 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" completed keep alive response.
+2023-09-09 15:34:18.569 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2724ms
+2023-09-09 15:34:18.613 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 15:34:18.613 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 15:34:18.614 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:34:18.670 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" completed keep alive response.
+2023-09-09 15:34:18.670 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.0283ms
+2023-09-09 15:36:29.437 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" disconnecting.
+2023-09-09 15:36:29.437 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" disconnecting.
+2023-09-09 15:36:29.441 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" stopped.
+2023-09-09 15:36:29.441 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" stopped.
+2023-09-09 15:36:29.443 +08:00 [DBG] Connection id "0HMTH0SMIR6CJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:36:29.443 +08:00 [DBG] Connection id "0HMTH0SMIR6CK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:39:23.763 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" accepted.
+2023-09-09 15:39:23.764 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" started.
+2023-09-09 15:39:23.788 +08:00 [DBG] Connection 0HMTH0SMIR6CL established using the following protocol: "Tls12"
+2023-09-09 15:39:23.788 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 15:39:23.788 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 15:39:23.788 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:39:23.793 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 15:39:23.793 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 15:39:23.793 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:23.793 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8673ms
+2023-09-09 15:39:23.848 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:39:23.848 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:23.848 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.5009ms
+2023-09-09 15:39:23.934 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 15:39:23.934 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 15:39:23.934 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:39:23.943 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:23.943 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.1108ms
+2023-09-09 15:39:44.898 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 15:39:44.898 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 15:39:44.898 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:39:44.900 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 15:39:44.900 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 15:39:44.900 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:44.900 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 2.4174ms
+2023-09-09 15:39:44.923 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:39:44.924 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:44.924 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2875ms
+2023-09-09 15:39:44.928 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" accepted.
+2023-09-09 15:39:44.929 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" started.
+2023-09-09 15:39:44.954 +08:00 [DBG] Connection 0HMTH0SMIR6CM established using the following protocol: "Tls12"
+2023-09-09 15:39:44.954 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:39:44.954 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" completed keep alive response.
+2023-09-09 15:39:44.955 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3050ms
+2023-09-09 15:39:44.979 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 15:39:44.979 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 15:39:44.979 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:39:44.988 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:39:44.988 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.7637ms
+2023-09-09 15:40:03.858 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-09 15:40:03.866 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 15:40:03.869 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 15:40:03.870 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:40:03.871 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 15:40:03.872 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:40:03.891 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 15:40:03.892 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 15:40:03.892 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 15:40:03.892 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 15:40:03.892 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 15:40:03.892 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 15:40:03.892 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:40:03.959 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 15:40:04.024 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:40:04.343 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 15:40:04.363 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()'
+2023-09-09 15:40:04.430 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<School>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+        SELECT s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+        FROM School AS s), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-09 15:40:04.447 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 15:40:04.461 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2023-09-09 15:40:04.463 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:40:04.584 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:40:04.588 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-09 15:40:04.618 +08:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-09 15:40:04.633 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.644 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.644 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.644 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.644 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.644 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.645 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.645 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.645 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.645 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:40:04.647 +08:00 [DBG] A data reader was disposed.
+2023-09-09 15:40:04.648 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:40:04.650 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:40:04.659 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 15:40:04.659 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 15:40:04.659 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 15:40:04.660 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 15:40:04.660 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 15:40:04.660 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 15:40:04.660 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-09 15:40:04.704 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 810.3243ms
+2023-09-09 15:40:04.705 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:40:04.705 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" completed keep alive response.
+2023-09-09 15:40:04.706 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 15:40:04.706 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 application/json;+charset=utf-8 848.1854ms
+2023-09-09 15:41:55.744 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" disconnecting.
+2023-09-09 15:41:55.744 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" stopped.
+2023-09-09 15:41:55.744 +08:00 [DBG] Connection id "0HMTH0SMIR6CM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:42:15.764 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" disconnecting.
+2023-09-09 15:42:15.764 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" stopped.
+2023-09-09 15:42:15.764 +08:00 [DBG] Connection id "0HMTH0SMIR6CL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:44:37.762 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-09 15:44:37.804 +08:00 [DBG] Hosting starting
+2023-09-09 15:44:37.864 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-09 15:44:37.871 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-09 15:44:37.871 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-09 15:44:37.871 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-09 15:44:37.871 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-09 15:44:37.871 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-09 15:44:37.871 +08:00 [INF] Hosting environment: Development
+2023-09-09 15:44:37.871 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-09 15:44:37.871 +08:00 [DBG] Hosting started
+2023-09-09 15:44:37.908 +08:00 [DBG] Connection id "0HMTH12F70RJN" accepted.
+2023-09-09 15:44:37.909 +08:00 [DBG] Connection id "0HMTH12F70RJN" started.
+2023-09-09 15:44:37.952 +08:00 [DBG] Connection 0HMTH12F70RJN established using the following protocol: "Tls12"
+2023-09-09 15:44:37.971 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 15:44:37.977 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-09 15:44:37.986 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 15:44:37.986 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:44:38.020 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 15:44:38.022 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 15:44:38.022 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:44:38.023 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 55.7404ms
+2023-09-09 15:44:38.055 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:44:38.056 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:44:38.056 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.9987ms
+2023-09-09 15:44:38.129 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 15:44:38.129 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 15:44:38.129 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:44:38.182 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:44:38.183 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.5457ms
+2023-09-09 15:44:38.640 +08:00 [DBG] Connection id "0HMTH12F70RJO" accepted.
+2023-09-09 15:44:38.640 +08:00 [DBG] Connection id "0HMTH12F70RJO" started.
+2023-09-09 15:44:38.663 +08:00 [DBG] Connection 0HMTH12F70RJO established using the following protocol: "Tls12"
+2023-09-09 15:44:38.663 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:44:38.663 +08:00 [DBG] Connection id "0HMTH12F70RJO" completed keep alive response.
+2023-09-09 15:44:38.664 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2250ms
+2023-09-09 15:45:01.820 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-09 15:45:01.827 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-09 15:45:01.833 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-09 15:45:01.833 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:45:01.836 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 15:45:01.838 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:45:01.855 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 15:45:01.855 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 15:45:01.855 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 15:45:01.855 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 15:45:01.855 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 15:45:01.855 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 15:45:01.856 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:45:01.923 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-09 15:45:01.990 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:45:02.295 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 15:45:02.316 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()'
+2023-09-09 15:45:02.384 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<School>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+        SELECT s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+        FROM School AS s), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-09 15:45:02.401 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 15:45:02.415 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (12ms).
+2023-09-09 15:45:02.418 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:02.527 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:02.531 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-09 15:45:02.550 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-09 15:45:02.565 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.576 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.576 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.576 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.576 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.576 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.577 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.577 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.577 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.577 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:02.579 +08:00 [DBG] A data reader was disposed.
+2023-09-09 15:45:02.581 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:02.583 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:02.591 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 15:45:02.592 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 15:45:02.592 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 15:45:02.592 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 15:45:02.592 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 15:45:02.592 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 15:45:02.592 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-09 15:45:02.638 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 780.6456ms
+2023-09-09 15:45:02.638 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-09 15:45:02.639 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:45:02.640 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 15:45:02.640 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 application/json;+charset=utf-8 820.8218ms
+2023-09-09 15:45:11.766 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-09 15:45:11.766 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-09 15:45:11.766 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:45:11.768 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-09 15:45:11.769 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-09 15:45:11.769 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:45:11.769 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 3.0421ms
+2023-09-09 15:45:11.789 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:45:11.790 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:45:11.790 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.5289ms
+2023-09-09 15:45:11.799 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - -
+2023-09-09 15:45:11.799 +08:00 [DBG] Connection id "0HMTH12F70RJO" completed keep alive response.
+2023-09-09 15:45:11.800 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.6540ms
+2023-09-09 15:45:11.871 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-09 15:45:11.871 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-09 15:45:11.871 +08:00 [DBG] Request did not match any endpoints
+2023-09-09 15:45:11.881 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:45:11.881 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.0777ms
+2023-09-09 15:45:24.986 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/1 - -
+2023-09-09 15:45:24.986 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/1'
+2023-09-09 15:45:24.986 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolByIdAsync (contactsapp)' with route pattern 'api/School/{id}' is valid for the request path '/api/School/1'
+2023-09-09 15:45:24.986 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolByIdAsync (contactsapp)'
+2023-09-09 15:45:24.987 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-09 15:45:24.987 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolByIdAsync (contactsapp)'
+2023-09-09 15:45:25.003 +08:00 [INF] Route matched with {action = "GetSchoolById", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sustain.Models.SchoolDto]] GetSchoolByIdAsync(Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-09 15:45:25.004 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-09 15:45:25.004 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-09 15:45:25.004 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-09 15:45:25.004 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-09 15:45:25.004 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-09 15:45:25.004 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:45:25.005 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-09 15:45:25.007 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-09-09 15:45:25.008 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-09-09 15:45:25.009 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-09-09 15:45:25.009 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-09-09 15:45:25.009 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-09-09 15:45:25.010 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-09-09 15:45:25.016 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-09 15:45:25.035 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()
+    .FirstOrDefault(e => EF.Property<int>(e, "SchoolId") == __p_0)'
+2023-09-09 15:45:25.080 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<School>(
+    asyncEnumerable: new SingleQueryingEnumerable<School>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+            SELECT TOP(1) s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+            FROM School AS s
+            WHERE s.SchoolId == @__p_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+        Sustain.DbContexts.SustainContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-09-09 15:45:25.084 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-09 15:45:25.084 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-09 15:45:25.085 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:25.085 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:25.088 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+WHERE [s].[SchoolId] = @__p_0
+2023-09-09 15:45:25.107 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+WHERE [s].[SchoolId] = @__p_0
+2023-09-09 15:45:25.107 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-09 15:45:25.108 +08:00 [DBG] A data reader was disposed.
+2023-09-09 15:45:25.108 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:25.108 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-09 15:45:25.109 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-09 15:45:25.109 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-09 15:45:25.109 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-09 15:45:25.109 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-09 15:45:25.109 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-09 15:45:25.109 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-09 15:45:25.109 +08:00 [INF] Executing OkObjectResult, writing value of type 'Sustain.Models.SchoolDto'.
+2023-09-09 15:45:25.110 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolByIdAsync (contactsapp) in 105.5314ms
+2023-09-09 15:45:25.110 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolByIdAsync (contactsapp)'
+2023-09-09 15:45:25.110 +08:00 [DBG] Connection id "0HMTH12F70RJN" completed keep alive response.
+2023-09-09 15:45:25.110 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-09 15:45:25.110 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/1 - - - 200 96 application/json;+charset=utf-8 123.9822ms
+2023-09-09 15:47:21.928 +08:00 [DBG] Connection id "0HMTH12F70RJO" disconnecting.
+2023-09-09 15:47:21.935 +08:00 [DBG] Connection id "0HMTH12F70RJO" stopped.
+2023-09-09 15:47:21.937 +08:00 [DBG] Connection id "0HMTH12F70RJO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-09 15:47:35.940 +08:00 [DBG] Connection id "0HMTH12F70RJN" disconnecting.
+2023-09-09 15:47:35.941 +08:00 [DBG] Connection id "0HMTH12F70RJN" stopped.
+2023-09-09 15:47:35.941 +08:00 [DBG] Connection id "0HMTH12F70RJN" sending FIN because: "The Socket transport's send loop completed gracefully."

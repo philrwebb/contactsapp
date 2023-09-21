@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sustain.DbContexts;
 
@@ -11,9 +12,10 @@ using Sustain.DbContexts;
 namespace contactsapp.Migrations
 {
     [DbContext(typeof(SustainContext))]
-    partial class SustainContextModelSnapshot : ModelSnapshot
+    [Migration("20230909061627_metermig7")]
+    partial class metermig7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -72,9 +74,6 @@ namespace contactsapp.Migrations
 
                     b.Property<int?>("SchoolId")
                         .HasColumnType("int");
-
-                    b.Property<string>("UtilityAccountNumber")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MeterId");
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b6/eNNvo2IrRO9Qm9fWyGfaHK9bLvqXlmkAWsFnE1O/9gqX5cBJwUg4ZGVs2e+dOeGNvqShXhHnD5n4gDm+/pg==",
+  "dgSpecHash": "VDChd1rc1bb6WuteMU/jE1YXZOrZJ+7UOQYCQIAMuNNDVpk79kCfB9k3Zawr9JZsCLRQW1is70yTAM8KGqWWTw==",
   "success": true,
   "projectFilePath": "/Users/philipwebb/Development/dotnetangular/contactsapp/contactsapp.csproj",
   "expectedPackageFiles": [
@@ -201,10 +201,7 @@
     "/Users/philipwebb/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/philipwebb/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/philipwebb/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/philipwebb/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/Users/philipwebb/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "/Users/philipwebb/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
-    "/Users/philipwebb/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.13/microsoft.netcore.app.host.osx-x64.6.0.13.nupkg.sha512"
+    "/Users/philipwebb/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

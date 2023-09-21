@@ -14,5 +14,6 @@ namespace Sustain.DbContexts
         public DbSet<MeterReading> MeterReading { get; set; } = null!;
         public DbSet<MeterType> MeterType { get; set; } = null!;
         public DbSet<School> School { get; set; } = null!;
+        public DbSet<SchoolType> SchoolType {get; set; } = null!;
     }
 }

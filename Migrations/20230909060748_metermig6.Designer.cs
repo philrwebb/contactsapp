@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sustain.DbContexts;
 
@@ -11,9 +12,10 @@ using Sustain.DbContexts;
 namespace contactsapp.Migrations
 {
     [DbContext(typeof(SustainContext))]
-    partial class SustainContextModelSnapshot : ModelSnapshot
+    [Migration("20230909060748_metermig6")]
+    partial class metermig6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -72,9 +74,6 @@ namespace contactsapp.Migrations
 
                     b.Property<int?>("SchoolId")
                         .HasColumnType("int");
-
-                    b.Property<string>("UtilityAccountNumber")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MeterId");
 
@@ -151,12 +150,11 @@ namespace contactsapp.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("SchoolTypeId")
-                        .HasColumnType("int");
+                    b.Property<string>("SchoolType")
+                        .HasMaxLength(4)
+                        .HasColumnType("nvarchar(4)");
 
                     b.HasKey("SchoolId");
-
-                    b.HasIndex("SchoolTypeId");
 
                     b.ToTable("School");
                 });
@@ -205,15 +203,6 @@ namespace contactsapp.Migrations
                         .IsRequired();
 
                     b.Navigation("meter");
-                });
-
-            modelBuilder.Entity("Sustain.Entities.School", b =>
-                {
-                    b.HasOne("Sustain.Entities.SchoolType", "SchoolType")
-                        .WithMany()
-                        .HasForeignKey("SchoolTypeId");
-
-                    b.Navigation("SchoolType");
                 });
 
             modelBuilder.Entity("Sustain.Entities.Meter", b =>

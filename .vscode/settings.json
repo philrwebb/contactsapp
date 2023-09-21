@@ -20,5 +20,10 @@
     "omnisharp.useModernNet": false,
     "omnisharp.dotnetPath": "/usr/local/share/dotnet/dotnet",
     "dotnet.defaultSolution": "contactsapp.sln",
-    "continue.serverUrl": "http://localhost:65432"
+    "continue.serverUrl": "http://localhost:65432",
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.inactiveIndentGuidesStroke": "#05ef3c"
+    }
 }

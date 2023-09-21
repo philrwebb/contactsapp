@@ -12,6 +12,7 @@ namespace Sustain.Profiles
             CreateMap<Models.CreateMeterDto, Entities.Meter>();
             CreateMap<Models.CreateSchoolDto, Entities.School>();
             CreateMap<Entities.School,Models.SchoolDto>();
+            CreateMap<Entities.SchoolType, Models.SchoolTypeDto>();
             // CreateMap<Models.ContactUpdateDto, Entities.Contact>();
             // CreateMap<Entities.Contact, Models.ContactUpdateDto>();
         }

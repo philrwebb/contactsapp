@@ -1,0 +1,1294 @@
+2023-09-15 11:45:32.367 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-15 11:45:32.413 +08:00 [DBG] Hosting starting
+2023-09-15 11:45:32.489 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-15 11:45:32.499 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-15 11:45:32.499 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-15 11:45:32.499 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-15 11:45:32.499 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-15 11:45:32.499 +08:00 [INF] Hosting environment: Development
+2023-09-15 11:45:32.499 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-15 11:45:32.499 +08:00 [DBG] Hosting started
+2023-09-15 11:45:43.263 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" accepted.
+2023-09-15 11:45:43.264 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" accepted.
+2023-09-15 11:45:43.264 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" started.
+2023-09-15 11:45:43.265 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" started.
+2023-09-15 11:45:43.319 +08:00 [DBG] Connection 0HMTLJOUCQUPG established using the following protocol: "Tls12"
+2023-09-15 11:45:43.319 +08:00 [DBG] Connection 0HMTLJOUCQUPF established using the following protocol: "Tls12"
+2023-09-15 11:45:43.344 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:45:43.344 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:45:43.346 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-15 11:45:43.346 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-15 11:45:43.363 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:45:43.363 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:45:43.365 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:45:43.365 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:45:43.365 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:45:43.365 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:45:43.366 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:45:43.366 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:45:43.366 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:45:43.366 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:45:43.384 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:45:43.384 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:45:43.385 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:45:43.385 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:45:43.392 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:45:43.392 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:45:43.393 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:45:43.393 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:45:43.447 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-15 11:45:43.447 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-15 11:45:43.514 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:45:43.514 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:45:43.826 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:45:43.826 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:45:43.847 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()'
+2023-09-15 11:45:43.847 +08:00 [DBG] Compiling query expression: 
+'DbSet<SchoolType>()'
+2023-09-15 11:45:43.912 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<School>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+        SELECT s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+        FROM School AS s), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-15 11:45:43.912 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SchoolType>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: SchoolType.SchoolTypeId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SchoolType.TypeLongDescription (string) MaxLength(50), 1], [Property: SchoolType.TypeShortDescription (string) Required MaxLength(255), 2] }
+        SELECT s.SchoolTypeId, s.TypeLongDescription, s.TypeShortDescription
+        FROM SchoolType AS s), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SchoolType>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-15 11:45:43.930 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:45:43.930 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:45:43.945 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2023-09-15 11:45:43.945 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2023-09-15 11:45:43.947 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:43.947 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.158 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.162 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:45:44.168 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.168 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:45:44.193 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:45:44.193 +08:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:45:44.209 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.209 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.218 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:44.220 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:45:44.220 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:45:44.221 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.221 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.223 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.223 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:44.231 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:45:44.231 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:45:44.232 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:45:44.232 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:45:44.232 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:45:44.232 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:45:44.232 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:45:44.232 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:45:44.284 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 887.2395ms
+2023-09-15 11:45:44.284 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 887.157ms
+2023-09-15 11:45:44.284 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:45:44.284 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:45:44.285 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" completed keep alive response.
+2023-09-15 11:45:44.285 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" completed keep alive response.
+2023-09-15 11:45:44.286 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:45:44.286 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:45:44.287 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 946.2091ms
+2023-09-15 11:45:44.287 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 946.2405ms
+2023-09-15 11:45:52.452 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - -
+2023-09-15 11:45:52.454 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-09-15 11:45:52.455 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-09-15 11:45:52.455 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:45:52.456 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:45:52.456 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:45:52.457 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:45:52.457 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:45:52.480 +08:00 [INF] Route matched with {action = "GetMetersForSchool", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.MeterDto]]] GetMetersForSchool(Int32) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-09-15 11:45:52.480 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:45:52.480 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:45:52.481 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:45:52.481 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:45:52.481 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:45:52.481 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:45:52.482 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:45:52.488 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:45:52.489 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' using the name 'schoolid' in request data ...
+2023-09-15 11:45:52.490 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:45:52.490 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:45:52.490 +08:00 [DBG] Attempting to validate the bound parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:45:52.491 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:45:52.523 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:45:52.531 +08:00 [DBG] Compiling query expression: 
+'DbSet<Meter>()
+    .Where(meter => meter.SchoolId == __schoolId_0)'
+2023-09-15 11:45:52.557 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Meter>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Meter.MeterId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Meter.MeterDescription (string) MaxLength(255), 1], [Property: Meter.MeterName (string) MaxLength(255), 2], [Property: Meter.MeterTypeId (int?) FK Index, 3], [Property: Meter.SchoolId (int?) FK Index, 4] }
+        SELECT m.MeterId, m.MeterDescription, m.MeterName, m.MeterTypeId, m.SchoolId
+        FROM Meter AS m
+        WHERE m.SchoolId == @__schoolId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Meter>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-15 11:45:52.562 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:45:52.562 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:45:52.563 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:52.564 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:52.565 +08:00 [DBG] Executing DbCommand [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:45:52.594 +08:00 [INF] Executed DbCommand (30ms) [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:45:52.596 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:45:52.600 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:45:52.600 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:52.600 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:45:52.602 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:45:52.602 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:45:52.602 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:45:52.602 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.MeterDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:45:52.604 +08:00 [INF] Executed action Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp) in 123.2634ms
+2023-09-15 11:45:52.604 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:45:52.604 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" completed keep alive response.
+2023-09-15 11:45:52.604 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:45:52.604 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - - - 200 143 text/json;+charset=utf-8 152.6904ms
+2023-09-15 11:46:52.228 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:46:52.228 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:46:52.228 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:46:52.228 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:46:52.229 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:46:52.229 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:46:52.229 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:46:52.229 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:46:52.229 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:46:52.229 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:46:52.229 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:46:52.229 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:46:52.229 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:46:52.229 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:46:52.229 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:46:52.229 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:46:52.229 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:46:52.229 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:46:52.229 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:46:52.230 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:46:52.230 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:46:52.230 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:46:52.230 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:46:52.230 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:46:52.231 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:46:52.231 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:46:52.231 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:46:52.231 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:46:52.231 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:46:52.231 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:46:52.232 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:46:52.232 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:46:52.232 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.232 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.232 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.232 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.232 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:46:52.232 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:46:52.235 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:46:52.235 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.235 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.235 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.235 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.235 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.236 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.236 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.236 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.236 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.236 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:46:52.237 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.237 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.237 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:46:52.237 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.237 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:46:52.237 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.237 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:46:52.237 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.238 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:46:52.238 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:46:52.238 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:46:52.238 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:46:52.238 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:46:52.238 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:46:52.238 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:46:52.238 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:46:52.238 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:46:52.239 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 8.8212ms
+2023-09-15 11:46:52.239 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:46:52.239 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" completed keep alive response.
+2023-09-15 11:46:52.239 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:46:52.239 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 10.6681ms
+2023-09-15 11:46:52.239 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 9.482ms
+2023-09-15 11:46:52.239 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:46:52.240 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" completed keep alive response.
+2023-09-15 11:46:52.240 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:46:52.240 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 11.5348ms
+2023-09-15 11:47:01.507 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:47:01.507 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:47:01.507 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:47:01.507 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:47:01.507 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:47:01.508 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:47:01.508 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:47:01.508 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:47:01.508 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:47:01.508 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:47:01.508 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:47:01.508 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:47:01.508 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:47:01.508 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:47:01.508 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:47:01.508 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:47:01.508 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:47:01.508 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:47:01.508 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:47:01.509 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:47:01.510 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:47:01.510 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:47:01.510 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:47:01.510 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:47:01.510 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:47:01.510 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:47:01.510 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:47:01.511 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:47:01.511 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:47:01.511 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:47:01.511 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:47:01.511 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.511 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.511 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.511 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:47:01.511 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.512 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:47:01.518 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:47:01.519 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.519 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.519 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.519 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:01.520 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:47:01.521 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:47:01.521 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.521 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.521 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.521 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:01.521 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:47:01.521 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:47:01.521 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:47:01.521 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:47:01.521 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:47:01.522 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:47:01.522 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:47:01.522 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:47:01.522 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 12.5082ms
+2023-09-15 11:47:01.522 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 12.3071ms
+2023-09-15 11:47:01.522 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:47:01.522 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:47:01.522 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" completed keep alive response.
+2023-09-15 11:47:01.522 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" completed keep alive response.
+2023-09-15 11:47:01.523 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:47:01.523 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:47:01.523 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 15.4769ms
+2023-09-15 11:47:01.523 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 15.5383ms
+2023-09-15 11:47:05.567 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - -
+2023-09-15 11:47:05.567 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-09-15 11:47:05.567 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-09-15 11:47:05.567 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:47:05.567 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:47:05.567 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:47:05.568 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:47:05.568 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:47:05.568 +08:00 [INF] Route matched with {action = "GetMetersForSchool", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.MeterDto]]] GetMetersForSchool(Int32) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-09-15 11:47:05.568 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:47:05.568 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:47:05.568 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:47:05.568 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:47:05.568 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:47:05.569 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:47:05.569 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:47:05.570 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:47:05.570 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' using the name 'schoolid' in request data ...
+2023-09-15 11:47:05.570 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:47:05.571 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:47:05.571 +08:00 [DBG] Attempting to validate the bound parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:47:05.571 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:47:05.572 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:47:05.576 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:47:05.576 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:47:05.576 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:05.576 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:05.577 +08:00 [DBG] Executing DbCommand [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:47:05.582 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:47:05.583 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:47:05.583 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:47:05.583 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:05.583 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:47:05.584 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:47:05.584 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:47:05.584 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:47:05.585 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.MeterDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:47:05.585 +08:00 [INF] Executed action Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp) in 16.3761ms
+2023-09-15 11:47:05.585 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:47:05.586 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" completed keep alive response.
+2023-09-15 11:47:05.586 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:47:05.586 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - - - 200 143 text/json;+charset=utf-8 19.3270ms
+2023-09-15 11:49:11.659 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" disconnecting.
+2023-09-15 11:49:11.666 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" stopped.
+2023-09-15 11:49:11.668 +08:00 [DBG] Connection id "0HMTLJOUCQUPF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 11:49:16.662 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" disconnecting.
+2023-09-15 11:49:16.663 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" stopped.
+2023-09-15 11:49:16.664 +08:00 [DBG] Connection id "0HMTLJOUCQUPG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 11:58:58.256 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" accepted.
+2023-09-15 11:58:58.256 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" started.
+2023-09-15 11:58:58.256 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" accepted.
+2023-09-15 11:58:58.257 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" started.
+2023-09-15 11:58:58.279 +08:00 [DBG] Connection 0HMTLJOUCQUPH established using the following protocol: "Tls12"
+2023-09-15 11:58:58.280 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:58:58.280 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:58:58.280 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:58:58.280 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:58:58.280 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:58:58.281 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:58:58.281 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:58:58.281 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:58:58.281 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:58:58.281 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:58:58.281 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:58:58.281 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:58:58.281 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:58:58.281 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:58:58.282 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:58:58.282 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:58:58.282 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:58:58.283 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:58:58.283 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:58:58.283 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.298 +08:00 [DBG] Connection 0HMTLJOUCQUPI established using the following protocol: "Tls12"
+2023-09-15 11:58:58.298 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:58:58.298 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:58:58.298 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:58:58.298 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:58:58.298 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:58:58.298 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:58:58.298 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:58:58.298 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:58:58.298 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:58:58.299 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:58:58.299 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:58:58.299 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:58:58.299 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:58:58.299 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:58:58.299 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:58:58.299 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:58:58.299 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:58:58.299 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:58:58.299 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:58:58.299 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.307 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.307 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:58:58.309 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:58:58.309 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.309 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.309 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:58:58.309 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.309 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.309 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:58:58.309 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:58:58.309 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:58:58.309 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:58:58.310 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 28.0473ms
+2023-09-15 11:58:58.310 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:58:58.310 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" completed keep alive response.
+2023-09-15 11:58:58.310 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:58:58.310 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 29.7623ms
+2023-09-15 11:58:58.329 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.329 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:58:58.331 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:58:58.332 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.332 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.332 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.332 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.332 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:58:58.333 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:58:58.333 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.333 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:58:58.334 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:58:58.334 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:58:58.334 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:58:58.334 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:58:58.334 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 35.6391ms
+2023-09-15 11:58:58.334 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:58:58.335 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" completed keep alive response.
+2023-09-15 11:58:58.335 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:58:58.335 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 36.5410ms
+2023-09-15 11:59:23.137 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:59:23.138 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:23.138 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:23.138 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:23.138 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:23.138 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:23.138 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:23.138 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:23.138 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:23.139 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:23.139 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:23.139 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:23.139 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:23.139 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:23.139 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:23.139 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:23.140 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:23.140 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:23.141 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:23.141 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.141 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.141 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:23.143 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:59:23.143 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:59:23.144 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:59:23.144 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:23.144 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:23.144 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:23.144 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:23.144 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:23.144 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:23.144 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:23.144 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:23.144 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:23.144 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:23.144 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:23.144 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:23.145 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:23.145 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.145 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.145 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:23.145 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.145 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.145 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:23.145 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:23.145 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:23.145 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:23.145 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:23.145 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:23.145 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 6.1934ms
+2023-09-15 11:59:23.145 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:23.146 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:23.146 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" completed keep alive response.
+2023-09-15 11:59:23.146 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:23.146 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:23.146 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 8.3832ms
+2023-09-15 11:59:23.146 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.146 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.146 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:23.148 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:23.149 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.149 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.149 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.149 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.149 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:23.150 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:23.150 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.151 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:23.151 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:23.151 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:23.151 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:23.151 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:23.152 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 6.972ms
+2023-09-15 11:59:23.152 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:23.152 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" completed keep alive response.
+2023-09-15 11:59:23.152 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:23.152 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 8.4806ms
+2023-09-15 11:59:26.866 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:59:26.866 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:59:26.866 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:59:26.866 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:26.866 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:59:26.866 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:26.866 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:26.866 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:26.867 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:26.867 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:26.867 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:26.867 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:26.867 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:26.867 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:26.867 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:26.867 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:26.867 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:26.867 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:26.867 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:26.867 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:26.867 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:26.867 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:26.867 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:26.868 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:26.868 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:26.868 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:26.868 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:26.869 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:26.869 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:26.869 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:26.869 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:26.869 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:26.869 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:26.869 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.869 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.870 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.870 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.870 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:26.870 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:26.874 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:26.874 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:26.874 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.875 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.875 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.875 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:26.875 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.875 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.875 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.875 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:26.876 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:26.876 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.876 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 8.3915ms
+2023-09-15 11:59:26.877 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:26.877 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:26.877 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" completed keep alive response.
+2023-09-15 11:59:26.877 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:26.877 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:26.877 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:26.877 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 10.9370ms
+2023-09-15 11:59:26.877 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:26.877 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:26.877 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 9.4434ms
+2023-09-15 11:59:26.877 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:26.878 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" completed keep alive response.
+2023-09-15 11:59:26.878 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:26.878 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 11.6695ms
+2023-09-15 11:59:32.296 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 11:59:32.296 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 11:59:32.296 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:32.296 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 11:59:32.296 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 11:59:32.296 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 11:59:32.296 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:32.296 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:32.296 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:32.296 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:32.297 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:32.297 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:32.297 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:32.297 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:32.297 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:32.297 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:32.297 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:32.297 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:32.297 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:32.298 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:32.298 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:32.298 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:32.298 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:32.298 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:32.298 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:32.299 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:32.299 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:32.299 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 11:59:32.300 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:32.300 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:32.301 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:32.302 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.301 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:32.304 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-09-15 11:59:32.304 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.304 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.304 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:32.305 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.305 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:32.308 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 11:59:32.309 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:32.309 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.309 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:32.309 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:32.310 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:32.310 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:32.310 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.310 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:32.310 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:32.310 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:32.310 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 11.951ms
+2023-09-15 11:59:32.310 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:32.310 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 11:59:32.310 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:32.310 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" completed keep alive response.
+2023-09-15 11:59:32.310 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:32.310 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:32.311 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:32.311 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 15.1492ms
+2023-09-15 11:59:32.311 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 12.6039ms
+2023-09-15 11:59:32.311 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 11:59:32.311 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" completed keep alive response.
+2023-09-15 11:59:32.311 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:32.311 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 15.4665ms
+2023-09-15 11:59:35.248 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - -
+2023-09-15 11:59:35.248 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-09-15 11:59:35.248 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-09-15 11:59:35.248 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:59:35.248 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 11:59:35.249 +08:00 [INF] CORS policy execution successful.
+2023-09-15 11:59:35.249 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 11:59:35.249 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:59:35.249 +08:00 [INF] Route matched with {action = "GetMetersForSchool", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.MeterDto]]] GetMetersForSchool(Int32) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-09-15 11:59:35.249 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 11:59:35.249 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 11:59:35.249 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 11:59:35.249 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 11:59:35.249 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 11:59:35.250 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:59:35.251 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 11:59:35.252 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:59:35.252 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' using the name 'schoolid' in request data ...
+2023-09-15 11:59:35.252 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:59:35.253 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:59:35.253 +08:00 [DBG] Attempting to validate the bound parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 11:59:35.253 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 11:59:35.255 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 11:59:35.255 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 11:59:35.255 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 11:59:35.256 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:35.256 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:35.257 +08:00 [DBG] Executing DbCommand [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:59:35.261 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 11:59:35.262 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 11:59:35.262 +08:00 [DBG] A data reader was disposed.
+2023-09-15 11:59:35.262 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:35.263 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 11:59:35.263 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 11:59:35.263 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 11:59:35.263 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 11:59:35.263 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.MeterDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 11:59:35.263 +08:00 [INF] Executed action Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp) in 13.9171ms
+2023-09-15 11:59:35.264 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 11:59:35.264 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" completed keep alive response.
+2023-09-15 11:59:35.264 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 11:59:35.264 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - - - 200 143 text/json;+charset=utf-8 16.2808ms
+2023-09-15 12:01:42.529 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" disconnecting.
+2023-09-15 12:01:42.531 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" stopped.
+2023-09-15 12:01:42.531 +08:00 [DBG] Connection id "0HMTLJOUCQUPH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 12:01:45.532 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" disconnecting.
+2023-09-15 12:01:45.532 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" stopped.
+2023-09-15 12:01:45.533 +08:00 [DBG] Connection id "0HMTLJOUCQUPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 12:02:57.052 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" accepted.
+2023-09-15 12:02:57.053 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" started.
+2023-09-15 12:02:57.053 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" accepted.
+2023-09-15 12:02:57.053 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" started.
+2023-09-15 12:02:57.075 +08:00 [DBG] Connection 0HMTLJOUCQUPJ established using the following protocol: "Tls12"
+2023-09-15 12:02:57.075 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 12:02:57.075 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 12:02:57.076 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 12:02:57.076 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:02:57.076 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:02:57.076 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:02:57.076 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:02:57.076 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:02:57.076 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:02:57.076 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:02:57.077 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:02:57.077 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:02:57.077 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:02:57.077 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:02:57.077 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:02:57.077 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:02:57.078 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:02:57.078 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:02:57.079 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:02:57.079 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.079 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.079 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:02:57.082 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:02:57.083 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.083 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.085 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:02:57.085 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.085 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.085 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:02:57.085 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:02:57.085 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:02:57.085 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:02:57.086 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 8.8075ms
+2023-09-15 12:02:57.086 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:02:57.086 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" completed keep alive response.
+2023-09-15 12:02:57.086 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:02:57.086 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 10.9142ms
+2023-09-15 12:02:57.087 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 12:02:57.087 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 12:02:57.087 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 12:02:57.087 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:02:57.087 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:02:57.087 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:02:57.087 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:02:57.087 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:02:57.088 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:02:57.088 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:02:57.088 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:02:57.088 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:02:57.088 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:02:57.088 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:02:57.088 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:02:57.088 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:02:57.089 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:02:57.089 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:02:57.089 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:02:57.089 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.089 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.089 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:02:57.091 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:02:57.091 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:02:57.091 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.092 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:02:57.092 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:02:57.092 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:02:57.092 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:02:57.092 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:02:57.092 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 3.8094ms
+2023-09-15 12:02:57.092 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:02:57.092 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" completed keep alive response.
+2023-09-15 12:02:57.092 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:02:57.092 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 4.9498ms
+2023-09-15 12:02:57.095 +08:00 [DBG] Connection 0HMTLJOUCQUPK established using the following protocol: "Tls12"
+2023-09-15 12:03:03.641 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 12:03:03.641 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 12:03:03.641 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 12:03:03.641 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 12:03:03.641 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 12:03:03.641 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 12:03:03.641 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:03:03.641 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:03:03.641 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:03:03.641 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:03:03.641 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:03:03.641 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:03:03.642 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:03:03.642 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:03:03.642 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:03:03.642 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:03:03.642 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:03:03.642 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:03:03.642 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:03:03.643 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:03:03.643 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:03:03.643 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:03:03.643 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:03:03.643 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:03:03.643 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:03:03.643 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:03:03.644 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:03:03.644 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:03:03.644 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:03:03.644 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:03:03.644 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.644 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:03:03.645 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:03:03.652 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:03:03.652 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.653 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.654 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:03:03.654 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.654 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.654 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:03.654 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.654 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:03:03.654 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.654 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:03:03.654 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:03.654 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:03:03.654 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:03:03.654 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:03:03.654 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:03:03.654 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:03:03.654 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:03:03.654 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:03:03.654 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 11.6162ms
+2023-09-15 12:03:03.654 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:03:03.654 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 11.5853ms
+2023-09-15 12:03:03.654 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" completed keep alive response.
+2023-09-15 12:03:03.655 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:03:03.655 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:03:03.655 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 13.9720ms
+2023-09-15 12:03:03.655 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" completed keep alive response.
+2023-09-15 12:03:03.655 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:03:03.655 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 14.2721ms
+2023-09-15 12:03:06.296 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - -
+2023-09-15 12:03:06.296 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Meters'
+2023-09-15 12:03:06.296 +08:00 [DBG] Endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)' with route pattern 'api/Meters' is valid for the request path '/api/Meters'
+2023-09-15 12:03:06.296 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 12:03:06.296 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:03:06.297 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:03:06.297 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:03:06.297 +08:00 [INF] Executing endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 12:03:06.297 +08:00 [INF] Route matched with {action = "GetMetersForSchool", controller = "Meters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.MeterDto]]] GetMetersForSchool(Int32) on controller Sustain.Controllers.MetersController (contactsapp).
+2023-09-15 12:03:06.297 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:03:06.297 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:03:06.297 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:03:06.297 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:03:06.297 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:03:06.297 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 12:03:06.297 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.MetersController (contactsapp)
+2023-09-15 12:03:06.298 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 12:03:06.298 +08:00 [DBG] Attempting to bind parameter 'schoolid' of type 'System.Int32' using the name 'schoolid' in request data ...
+2023-09-15 12:03:06.298 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 12:03:06.298 +08:00 [DBG] Done attempting to bind parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 12:03:06.298 +08:00 [DBG] Attempting to validate the bound parameter 'schoolid' of type 'System.Int32' ...
+2023-09-15 12:03:06.298 +08:00 [DBG] Done attempting to validate the bound parameter 'schoolid' of type 'System.Int32'.
+2023-09-15 12:03:06.298 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:03:06.299 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:03:06.299 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:03:06.299 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:06.299 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:06.299 +08:00 [DBG] Executing DbCommand [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 12:03:06.302 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__schoolId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId]
+FROM [Meter] AS [m]
+WHERE [m].[SchoolId] = @__schoolId_0
+2023-09-15 12:03:06.302 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:03:06.302 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:03:06.302 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:06.302 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:03:06.303 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:03:06.303 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:03:06.303 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:03:06.303 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.MeterDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:03:06.304 +08:00 [INF] Executed action Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp) in 6.317ms
+2023-09-15 12:03:06.304 +08:00 [INF] Executed endpoint 'Sustain.Controllers.MetersController.GetMetersForSchool (contactsapp)'
+2023-09-15 12:03:06.304 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" completed keep alive response.
+2023-09-15 12:03:06.304 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:03:06.304 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/Meters?schoolid=5 - - - 200 143 text/json;+charset=utf-8 7.6535ms
+2023-09-15 12:05:14.751 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" disconnecting.
+2023-09-15 12:05:14.752 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" stopped.
+2023-09-15 12:05:14.752 +08:00 [DBG] Connection id "0HMTLJOUCQUPJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 12:05:16.753 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" disconnecting.
+2023-09-15 12:05:16.754 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" stopped.
+2023-09-15 12:05:16.754 +08:00 [DBG] Connection id "0HMTLJOUCQUPK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 12:09:02.509 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" accepted.
+2023-09-15 12:09:02.509 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" started.
+2023-09-15 12:09:02.509 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" accepted.
+2023-09-15 12:09:02.509 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" started.
+2023-09-15 12:09:02.531 +08:00 [DBG] Connection 0HMTLJOUCQUPL established using the following protocol: "Tls12"
+2023-09-15 12:09:02.532 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 12:09:02.532 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 12:09:02.532 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 12:09:02.532 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:02.532 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:09:02.532 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:09:02.532 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:09:02.532 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:02.532 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:09:02.533 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:09:02.533 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:09:02.533 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:09:02.533 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:09:02.533 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:09:02.533 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:02.533 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:02.534 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:09:02.535 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:09:02.535 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:09:02.535 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.535 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.536 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:09:02.540 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:09:02.540 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.540 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.541 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:09:02.541 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.541 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.541 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:09:02.541 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:09:02.541 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:09:02.541 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:09:02.542 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 8.6365ms
+2023-09-15 12:09:02.542 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:02.542 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" completed keep alive response.
+2023-09-15 12:09:02.542 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:09:02.542 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 10.5097ms
+2023-09-15 12:09:02.543 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 12:09:02.546 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 12:09:02.546 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 12:09:02.546 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:02.546 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:09:02.546 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:09:02.546 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:09:02.547 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:02.547 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:09:02.547 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:09:02.547 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:09:02.547 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:09:02.547 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:09:02.547 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:09:02.548 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:02.548 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:02.551 +08:00 [DBG] Connection 0HMTLJOUCQUPM established using the following protocol: "Tls12"
+2023-09-15 12:09:02.552 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:09:02.552 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:09:02.552 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:09:02.552 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.552 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.552 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:09:02.554 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:02.555 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:09:02.555 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.555 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:02.555 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:09:02.555 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:09:02.555 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:09:02.556 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:09:02.556 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 8.1752ms
+2023-09-15 12:09:02.556 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:02.556 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" completed keep alive response.
+2023-09-15 12:09:02.556 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:09:02.556 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 12.9567ms
+2023-09-15 12:09:51.474 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School - -
+2023-09-15 12:09:51.474 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - -
+2023-09-15 12:09:51.474 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-09-15 12:09:51.474 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School/SchoolTypes'
+2023-09-15 12:09:51.474 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-09-15 12:09:51.474 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)' with route pattern 'api/School/SchoolTypes' is valid for the request path '/api/School/SchoolTypes'
+2023-09-15 12:09:51.475 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:51.475 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:51.475 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:09:51.475 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-09-15 12:09:51.475 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:09:51.475 +08:00 [INF] CORS policy execution successful.
+2023-09-15 12:09:51.475 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:09:51.475 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-15 12:09:51.475 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:51.475 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:51.475 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:09:51.475 +08:00 [INF] Route matched with {action = "GetSchoolTypes", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolTypeDto]]] GetSchoolTypes() on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-09-15 12:09:51.475 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:09:51.475 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-15 12:09:51.475 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-15 12:09:51.476 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:51.476 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:51.476 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:51.476 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-09-15 12:09:51.477 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:09:51.477 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-09-15 12:09:51.477 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:09:51.477 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-15 12:09:51.477 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:09:51.477 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-15 12:09:51.477 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.478 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.478 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.478 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.478 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:09:51.478 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:09:51.485 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+FROM [School] AS [s]
+2023-09-15 12:09:51.485 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SchoolTypeId], [s].[TypeLongDescription], [s].[TypeShortDescription]
+FROM [SchoolType] AS [s]
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:09:51.486 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-15 12:09:51.486 +08:00 [DBG] A data reader was disposed.
+2023-09-15 12:09:51.486 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.486 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.486 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.487 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-09-15 12:09:51.487 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:09:51.487 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-15 12:09:51.487 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:09:51.487 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:09:51.487 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-09-15 12:09:51.487 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:09:51.487 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-09-15 12:09:51.487 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolTypeDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-15 12:09:51.487 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 11.3353ms
+2023-09-15 12:09:51.488 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-09-15 12:09:51.488 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp) in 11.3261ms
+2023-09-15 12:09:51.488 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" completed keep alive response.
+2023-09-15 12:09:51.488 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchoolTypes (contactsapp)'
+2023-09-15 12:09:51.488 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:09:51.488 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" completed keep alive response.
+2023-09-15 12:09:51.488 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School - - - 200 1061 text/json;+charset=utf-8 13.8497ms
+2023-09-15 12:09:51.488 +08:00 [DBG] 'SustainContext' disposed.
+2023-09-15 12:09:51.488 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School/SchoolTypes - - - 200 201 text/json;+charset=utf-8 13.9878ms
+2023-09-15 12:12:02.189 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" disconnecting.
+2023-09-15 12:12:02.190 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" stopped.
+2023-09-15 12:12:02.189 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" disconnecting.
+2023-09-15 12:12:02.190 +08:00 [DBG] Connection id "0HMTLJOUCQUPL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-15 12:12:02.191 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" stopped.
+2023-09-15 12:12:02.191 +08:00 [DBG] Connection id "0HMTLJOUCQUPM" sending FIN because: "The Socket transport's send loop completed gracefully."

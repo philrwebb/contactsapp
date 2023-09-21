@@ -14,9 +14,10 @@ namespace Sustain.Entities
         public string? SchoolName { get; set; }
         [MaxLength(100)]
         public string? SchoolLocation { get; set; }
-        [MaxLength(4)]
-        public string? SchoolType { get; set; }
         [ForeignKey("SchoolId")]
         public ICollection<Meter>? Meters { get; set; } = null;
+        [ForeignKey("SchoolType")]
+        public int? SchoolTypeId { get; set; }
+        public SchoolType? SchoolType { get; set; }
     }
 }

@@ -11,6 +11,8 @@ namespace Sustain.Models
         public string? MeterName { get; set; }
         public string? MeterDescription { get; set; }
         public int MeterTypeId { get; set; }
+        public string? UtilityAccountNumber { get; set; }
+        public int? SchoolId { get; set; }
         public List<MeterReading> MeterReading { get; set; } = new List<MeterReading>();
     }
 }

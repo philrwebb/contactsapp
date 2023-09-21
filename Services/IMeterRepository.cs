@@ -12,5 +12,5 @@ public interface IMeterRepository
 
     Task<Meter> CreateMeterAsync(Meter meter);
 
-    // void DeleteMeter(Meter meter);
+    Task<IEnumerable<Meter>> GetMetersForSchoolAsync(int schoolId);
 }

@@ -40,4 +40,10 @@ public class MetersController : ControllerBase
         return BadRequest("Could not create contact");
         
     }
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<MeterDto>>> GetMetersForSchool(int schoolid)
+    {
+        var meters = await _meterRepository.GetMetersForSchoolAsync(schoolid);
+        return Ok(_mapper.Map<IEnumerable<MeterDto>>(meters));
+    }
 }
