@@ -23,7 +23,11 @@ namespace Sustain.Services
             string? name, string? searchQuery, int pageNumber, int pageSize
         )
         {
-            var collection = _context.School as IQueryable<School>;
+            var collection = _context.School
+                .Include(s => s.Meters)
+                .Include(s => s.SchoolType)
+                .AsQueryable();
+
             if (!string.IsNullOrWhiteSpace(name))
             {
                 name = name.Trim();
@@ -38,7 +42,7 @@ namespace Sustain.Services
 
             var PaginationMetadata = new PaginationMetadata(totalItemCount, pageSize, pageNumber);
 
-            var collectionToReturn = await collection.OrderBy (s => s.SchoolName)
+            var collectionToReturn = await collection.OrderBy(s => s.SchoolName)
                 .Skip(pageSize * (pageNumber - 1))
                 .Take(pageSize)
                 .ToListAsync();

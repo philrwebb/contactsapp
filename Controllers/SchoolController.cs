@@ -10,7 +10,6 @@ namespace Sustain.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-
 public class SchoolController : ControllerBase
 {
     private readonly ISchoolRepository _schoolRepository;

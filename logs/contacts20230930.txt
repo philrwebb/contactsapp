@@ -1,0 +1,47 @@
+2023-09-30 16:50:37.475 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-30 16:50:37.524 +08:00 [DBG] Hosting starting
+2023-09-30 16:50:37.582 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-09-30 16:50:37.591 +08:00 [INF] Now listening on: https://localhost:7195
+2023-09-30 16:50:37.591 +08:00 [INF] Now listening on: http://localhost:5108
+2023-09-30 16:50:37.592 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-09-30 16:50:37.592 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-30 16:50:37.592 +08:00 [INF] Hosting environment: Development
+2023-09-30 16:50:37.592 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-09-30 16:50:37.592 +08:00 [DBG] Hosting started
+2023-09-30 16:51:10.087 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" accepted.
+2023-09-30 16:51:10.089 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" started.
+2023-09-30 16:51:10.145 +08:00 [DBG] Connection 0HMU1I9IA5NN7 established using the following protocol: "Tls12"
+2023-09-30 16:51:10.168 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/ - -
+2023-09-30 16:51:10.170 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-30 16:51:10.184 +08:00 [DBG] No candidates found for the request path '/'
+2023-09-30 16:51:10.184 +08:00 [DBG] Request did not match any endpoints
+2023-09-30 16:51:10.202 +08:00 [DBG] The request path  does not match the path filter
+2023-09-30 16:51:10.203 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" completed keep alive response.
+2023-09-30 16:51:10.204 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/ - - - 404 0 - 41.8374ms
+2023-09-30 16:51:37.363 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/index.html - -
+2023-09-30 16:51:37.363 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-30 16:51:37.364 +08:00 [DBG] Request did not match any endpoints
+2023-09-30 16:51:37.397 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" completed keep alive response.
+2023-09-30 16:51:37.397 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/index.html - - - 200 - text/html;charset=utf-8 34.3773ms
+2023-09-30 16:51:37.503 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-30 16:51:37.503 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-30 16:51:37.503 +08:00 [DBG] Request did not match any endpoints
+2023-09-30 16:51:37.573 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" completed keep alive response.
+2023-09-30 16:51:37.574 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.5904ms
+2023-09-30 16:51:42.192 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - -
+2023-09-30 16:51:42.192 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-30 16:51:42.192 +08:00 [DBG] Request did not match any endpoints
+2023-09-30 16:51:42.200 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" completed keep alive response.
+2023-09-30 16:51:42.201 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.9442ms
+2023-09-30 16:51:42.275 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/favicon.ico - -
+2023-09-30 16:51:42.275 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+2023-09-30 16:51:42.275 +08:00 [DBG] Request did not match any endpoints
+2023-09-30 16:51:42.276 +08:00 [DBG] The request path  does not match the path filter
+2023-09-30 16:51:42.276 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" completed keep alive response.
+2023-09-30 16:51:42.276 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/favicon.ico - - - 404 0 - 1.1104ms
+2023-09-30 16:53:52.738 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" disconnecting.
+2023-09-30 16:53:52.741 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" stopped.
+2023-09-30 16:53:52.742 +08:00 [DBG] Connection id "0HMU1I9IA5NN7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-30 17:10:40.938 +08:00 [INF] Application is shutting down...
+2023-09-30 17:10:40.939 +08:00 [DBG] Hosting stopping
+2023-09-30 17:10:40.946 +08:00 [DBG] Hosting stopped

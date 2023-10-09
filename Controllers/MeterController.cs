@@ -16,6 +16,8 @@ public class MetersController : ControllerBase
     private readonly IMeterRepository _meterRepository;
     private readonly IMapper _mapper;
     private readonly ILogger<MetersController> _logger;
+
+    const int maxPageSize = 20;
     public MetersController(
         IMeterRepository meterRepository,
         IMapper mapper,
@@ -35,15 +37,24 @@ public class MetersController : ControllerBase
         await _meterRepository.CreateMeterAsync(meter);
         if (await _meterRepository.SaveChangesAsync())
         {
-        return Ok(_mapper.Map<MeterDto>(meter));
+            return Ok(_mapper.Map<MeterDto>(meter));
         }
         return BadRequest("Could not create contact");
-        
+
     }
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<MeterDto>>> GetMetersForSchool(int schoolid)
+    public async Task<ActionResult<IEnumerable<MeterDto>>> GetMetersForSchool(int schoolid, string? name, string? searchQuery, int pageNumber = 1, int pageSize = 5)
     {
-        var meters = await _meterRepository.GetMetersForSchoolAsync(schoolid);
+        if (pageSize > maxPageSize)
+        {
+            return BadRequest($"Maximum page size is {maxPageSize}");
+        }
+        var (meters, PaginationMetadata) = await _meterRepository.GetMetersForSchoolAsync(schoolid, name, searchQuery, pageNumber, pageSize);
+        Response
+    .Headers
+    .Add("X-Pagination",
+    JsonSerializer.Serialize(PaginationMetadata));
+
         return Ok(_mapper.Map<IEnumerable<MeterDto>>(meters));
     }
 }

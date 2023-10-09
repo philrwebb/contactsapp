@@ -27,13 +27,21 @@ public class MeterRepository : IMeterRepository
         return meter;
     }
 
-    public async Task<IEnumerable<Meter>> GetMetersForSchoolAsync(int schoolId)
+    public async Task<(IEnumerable<Meter>, PaginationMetadata)> GetMetersForSchoolAsync(
+        int schoolId,string? name, string? searchQuery, int pageNumber, int pageSize
+        )
     {
-        var collection = _context.Meter as IQueryable<Meter>;
+        var collection = _context.Meter
+            .Include(m => m.MeterType)
+            .Include(m => m.MeterReadings)
+            .AsQueryable();
         collection = collection.Where((meter) => meter.SchoolId == schoolId);
-        var collectionToReturn = await collection.ToListAsync();
-        return collectionToReturn;
+        var totalItemCount = await collection.CountAsync();
+        var PaginationMetadata = new PaginationMetadata(totalItemCount, pageSize, pageNumber);
+        var collectionToReturn = await collection.OrderBy(m => m.MeterName)
+            .Skip(pageSize * (pageNumber - 1))
+            .Take(pageSize)
+            .ToListAsync();
+        return (collectionToReturn, PaginationMetadata);
     }
-
 }
-

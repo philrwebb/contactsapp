@@ -1,0 +1,1527 @@
+2023-10-03 15:18:07.690 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-03 15:18:07.736 +08:00 [DBG] Hosting starting
+2023-10-03 15:18:07.806 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 94E46C593C0BE06B61505D939614C7B944816EDD)
+2023-10-03 15:18:07.816 +08:00 [INF] Now listening on: https://localhost:7195
+2023-10-03 15:18:07.816 +08:00 [INF] Now listening on: http://localhost:5108
+2023-10-03 15:18:07.816 +08:00 [DBG] Loaded hosting startup assembly contactsapp
+2023-10-03 15:18:07.816 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-03 15:18:07.816 +08:00 [INF] Hosting environment: Development
+2023-10-03 15:18:07.816 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnetangular/contactsapp/
+2023-10-03 15:18:07.816 +08:00 [DBG] Hosting started
+2023-10-03 15:18:37.844 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" accepted.
+2023-10-03 15:18:37.855 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" started.
+2023-10-03 15:18:37.944 +08:00 [DBG] Connection 0HMU3S3R7MFQ9 established using the following protocol: "Tls12"
+2023-10-03 15:18:37.986 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - -
+2023-10-03 15:18:37.991 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-03 15:18:38.031 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:18:38.035 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:18:38.035 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:38.037 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:18:38.037 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:18:38.063 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:18:38.065 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:38.082 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:18:38.082 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:18:38.082 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:18:38.082 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:18:38.082 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:18:38.082 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:18:38.082 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:18:38.163 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-03 15:18:38.262 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:18:38.267 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:18:38.268 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:18:38.269 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:18:38.269 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:18:38.269 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:18:38.269 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:18:38.269 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:18:38.270 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:18:38.270 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:18:38.270 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:38.270 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:38.270 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:38.270 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:18:38.270 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:38.270 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:38.271 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:38.271 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:38.271 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:18:38.271 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:38.598 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:18:38.632 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()
+    .Include(s => s.Meters)
+    .Include(s => s.SchoolType)
+    .Count()'
+2023-10-03 15:18:38.695 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM School AS s), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        Sustain.DbContexts.SustainContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-03 15:18:38.713 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:18:38.729 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (14ms).
+2023-10-03 15:18:38.731 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:38.873 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:38.877 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:18:38.910 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:18:38.918 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:18:38.920 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:38.921 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:38.925 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()
+    .Include(s => s.Meters)
+    .Include(s => s.SchoolType)
+    .OrderBy(s => s.SchoolName)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2023-10-03 15:18:38.932 +08:00 [DBG] Including navigation: 'School.Meters'.
+2023-10-03 15:18:38.935 +08:00 [DBG] Including navigation: 'School.SchoolType'.
+2023-10-03 15:18:39.022 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<School>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+            1 -> 0
+            2 -> 4
+            3 -> Dictionary<IProperty, int> { [Property: Meter.MeterId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Meter.MeterDescription (string) MaxLength(255), 6], [Property: Meter.MeterName (string) MaxLength(255), 7], [Property: Meter.MeterTypeId (int?) FK Index, 8], [Property: Meter.SchoolId (int?) FK Index, 9], [Property: Meter.UtilityAccountNumber (string), 10] }
+            4 -> 5
+            5 -> Dictionary<IProperty, int> { [Property: SchoolType.SchoolTypeId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: SchoolType.TypeLongDescription (string) MaxLength(50), 11], [Property: SchoolType.TypeShortDescription (string) Required MaxLength(255), 12] }
+        SELECT t.SchoolId, t.SchoolLocation, t.SchoolName, t.SchoolTypeId, s0.SchoolTypeId, m.MeterId, m.MeterDescription, m.MeterName, m.MeterTypeId, m.SchoolId, m.UtilityAccountNumber, s0.TypeLongDescription, s0.TypeShortDescription
+        FROM 
+        (
+            SELECT s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+            FROM School AS s
+            ORDER BY s.SchoolName ASC
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        LEFT JOIN SchoolType AS s0 ON t.SchoolTypeId == s0.SchoolTypeId
+        LEFT JOIN Meter AS m ON t.SchoolId == m.SchoolId
+        ORDER BY t.SchoolName ASC, t.SchoolId ASC, s0.SchoolTypeId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-03 15:18:39.027 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:18:39.027 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:18:39.029 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.029 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.031 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:18:39.066 +08:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:18:39.078 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.089 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.096 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.096 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.097 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.097 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.097 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.098 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:18:39.098 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.098 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.112 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:18:39.113 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:18:39.113 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:18:39.113 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:18:39.161 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" accepted.
+2023-10-03 15:18:39.161 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" received FIN.
+2023-10-03 15:18:39.161 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" started.
+2023-10-03 15:18:39.161 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 15:18:39.164 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 1078.505ms
+2023-10-03 15:18:39.164 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:39.165 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" disconnecting.
+2023-10-03 15:18:39.165 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" completed keep alive response.
+2023-10-03 15:18:39.166 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:18:39.167 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - - - 200 1127 text/json;+charset=utf-8 1185.2355ms
+2023-10-03 15:18:39.168 +08:00 [DBG] Connection id "0HMU3S3R7MFQ9" stopped.
+2023-10-03 15:18:39.185 +08:00 [DBG] Connection 0HMU3S3R7MFQA established using the following protocol: "Tls12"
+2023-10-03 15:18:39.186 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - -
+2023-10-03 15:18:39.186 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:18:39.186 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:18:39.186 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:39.186 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:18:39.186 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:18:39.187 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:18:39.187 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:39.187 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:18:39.187 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:18:39.187 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:18:39.187 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:18:39.187 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:18:39.187 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:18:39.187 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:18:39.187 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:39.188 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:18:39.189 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:18:39.189 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:18:39.189 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:18:39.189 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:39.189 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:39.189 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:18:39.189 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:18:39.190 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:18:39.191 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:18:39.191 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:18:39.191 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.191 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.192 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:18:39.194 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:18:39.194 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:18:39.194 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.194 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.194 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:18:39.195 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:18:39.195 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.195 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.195 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:18:39.197 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:18:39.198 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:18:39.198 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.198 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:18:39.199 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:18:39.199 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:18:39.199 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:18:39.199 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:18:39.199 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 12.0795ms
+2023-10-03 15:18:39.199 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:18:39.199 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:18:39.199 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:18:39.200 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - - - 200 1127 text/json;+charset=utf-8 13.9353ms
+2023-10-03 15:19:52.686 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - -
+2023-10-03 15:19:52.686 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:19:52.686 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:19:52.686 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.687 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:19:52.687 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:19:52.687 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:19:52.687 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.687 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:19:52.687 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:19:52.687 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:19:52.687 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:19:52.687 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:19:52.687 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:19:52.687 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:19:52.688 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:19:52.689 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.689 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:19:52.690 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:19:52.690 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.690 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.690 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:19:52.690 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.717 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:19:52.718 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:19:52.718 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:19:52.718 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.718 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.718 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:19:52.722 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:19:52.723 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:19:52.723 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.723 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.724 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:19:52.724 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:19:52.724 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.724 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.725 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:19:52.728 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:19:52.729 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.730 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.731 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:19:52.731 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.731 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.731 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:19:52.731 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:19:52.731 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:19:52.732 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:19:52.732 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 45.0622ms
+2023-10-03 15:19:52.733 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.733 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:19:52.733 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:19:52.733 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - - - 200 1127 text/json;+charset=utf-8 47.0263ms
+2023-10-03 15:19:52.733 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" accepted.
+2023-10-03 15:19:52.734 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" started.
+2023-10-03 15:19:52.735 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - -
+2023-10-03 15:19:52.735 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:19:52.735 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:19:52.736 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.736 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:19:52.736 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:19:52.736 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:19:52.736 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.736 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:19:52.736 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:19:52.736 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:19:52.736 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:19:52.736 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:19:52.736 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:19:52.736 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:19:52.737 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:19:52.737 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.738 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.738 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:19:52.738 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:19:52.738 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:19:52.738 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:19:52.738 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.738 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.738 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:19:52.738 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:19:52.739 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:19:52.739 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:19:52.739 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:19:52.739 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.740 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.740 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:19:52.743 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:19:52.743 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:19:52.743 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.744 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.744 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:19:52.744 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:19:52.744 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.744 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.744 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:19:52.748 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:19:52.749 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:19:52.749 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.749 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:19:52.750 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:19:52.750 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:19:52.750 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:19:52.750 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:19:52.750 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 13.4724ms
+2023-10-03 15:19:52.750 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:19:52.750 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:19:52.750 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:19:52.750 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - - - 200 1127 text/json;+charset=utf-8 14.8065ms
+2023-10-03 15:19:52.755 +08:00 [DBG] Connection 0HMU3S3R7MFQB established using the following protocol: "Tls12"
+2023-10-03 15:20:06.200 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=5 - -
+2023-10-03 15:20:06.200 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:06.201 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:06.201 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:06.201 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:06.201 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:06.201 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:06.201 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:06.201 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:06.201 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:06.202 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:06.202 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:06.202 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:06.202 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:06.202 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:06.202 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:06.203 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:06.203 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:06.203 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:06.203 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:06.203 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:06.203 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:06.203 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:06.203 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:06.203 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:06.204 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:06.204 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:06.204 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:06.204 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:06.204 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:06.204 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:06.204 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:06.204 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:06.204 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:06.205 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:06.205 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:06.205 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:06.205 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:06.205 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:06.205 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:06.205 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:06.205 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:06.206 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:06.208 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:06.209 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:06.209 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.209 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.209 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:06.213 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:06.213 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:06.213 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.214 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.215 +08:00 [DBG] Compiling query expression: 
+'DbSet<School>()
+    .Include(s => s.Meters)
+    .Include(s => s.SchoolType)
+    .OrderBy(s => s.SchoolName)
+    .Skip(__p_0)
+    .Take(__p_0)'
+2023-10-03 15:20:06.215 +08:00 [DBG] Including navigation: 'School.Meters'.
+2023-10-03 15:20:06.216 +08:00 [DBG] Including navigation: 'School.SchoolType'.
+2023-10-03 15:20:06.236 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<School>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: School.SchoolId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: School.SchoolLocation (string) MaxLength(100), 1], [Property: School.SchoolName (string) MaxLength(100), 2], [Property: School.SchoolTypeId (int?) FK Index, 3] }
+            1 -> 0
+            2 -> 4
+            3 -> Dictionary<IProperty, int> { [Property: Meter.MeterId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Meter.MeterDescription (string) MaxLength(255), 6], [Property: Meter.MeterName (string) MaxLength(255), 7], [Property: Meter.MeterTypeId (int?) FK Index, 8], [Property: Meter.SchoolId (int?) FK Index, 9], [Property: Meter.UtilityAccountNumber (string), 10] }
+            4 -> 5
+            5 -> Dictionary<IProperty, int> { [Property: SchoolType.SchoolTypeId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: SchoolType.TypeLongDescription (string) MaxLength(50), 11], [Property: SchoolType.TypeShortDescription (string) Required MaxLength(255), 12] }
+        SELECT t.SchoolId, t.SchoolLocation, t.SchoolName, t.SchoolTypeId, s0.SchoolTypeId, m.MeterId, m.MeterDescription, m.MeterName, m.MeterTypeId, m.SchoolId, m.UtilityAccountNumber, s0.TypeLongDescription, s0.TypeShortDescription
+        FROM 
+        (
+            SELECT s.SchoolId, s.SchoolLocation, s.SchoolName, s.SchoolTypeId
+            FROM School AS s
+            ORDER BY s.SchoolName ASC
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+        ) AS t
+        LEFT JOIN SchoolType AS s0 ON t.SchoolTypeId == s0.SchoolTypeId
+        LEFT JOIN Meter AS m ON t.SchoolId == m.SchoolId
+        ORDER BY t.SchoolName ASC, t.SchoolId ASC, s0.SchoolTypeId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, School>, 
+    Sustain.DbContexts.SustainContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-03 15:20:06.237 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:06.237 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:06.237 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.237 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.237 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:06.256 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:06.256 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.256 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.257 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.257 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.257 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.257 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.260 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.266 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:06.278 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:06.278 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.278 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:06.278 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:06.278 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:06.278 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:06.279 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:06.283 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 80.5651ms
+2023-10-03 15:20:06.283 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:06.283 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:06.283 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:06.283 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=5 - - - 200 1247 text/json;+charset=utf-8 83.2349ms
+2023-10-03 15:20:10.464 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - -
+2023-10-03 15:20:10.464 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:10.464 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:10.464 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:10.465 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:10.465 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:10.465 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:10.465 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:10.465 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:10.465 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:10.465 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:10.465 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:10.466 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:10.466 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:10.466 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:10.466 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:10.466 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:10.467 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:10.467 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:10.467 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:10.467 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:10.467 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:10.467 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:10.468 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:10.468 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:10.469 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:10.469 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:10.469 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:10.470 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:10.470 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:10.471 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:10.471 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.474 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.474 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:10.479 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:10.480 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:10.480 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.480 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.481 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:10.481 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:10.481 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.481 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.481 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:10.485 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.486 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.487 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:10.487 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:10.487 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.487 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:10.487 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:10.487 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:10.487 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:10.487 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:10.488 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 21.8219ms
+2023-10-03 15:20:10.488 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:10.488 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:10.488 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:10.488 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=5 - - - 200 1127 text/json;+charset=utf-8 23.7952ms
+2023-10-03 15:20:11.880 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=5 - -
+2023-10-03 15:20:11.880 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:11.880 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:11.881 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:11.881 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:11.881 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:11.881 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:11.881 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:11.881 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:11.882 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:11.882 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:11.882 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:11.882 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:11.882 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:11.882 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:11.883 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:11.883 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:11.883 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:11.883 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:11.883 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:11.883 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:11.884 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:11.884 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:11.884 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:11.884 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:11.884 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:11.884 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:11.884 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:11.884 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:11.884 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:11.885 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:11.885 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:11.885 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:11.885 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:11.885 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:11.885 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:11.886 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:11.886 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:11.886 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:11.887 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:11.887 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:11.887 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:11.888 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:11.888 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:11.889 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:11.889 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.889 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.889 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:11.892 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:11.893 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:11.893 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.893 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.893 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:11.894 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:11.894 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.894 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.894 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:11.897 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:11.898 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.898 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.898 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.898 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.899 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.899 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.899 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.899 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:11.899 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:11.899 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.899 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:11.900 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:11.900 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:11.900 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:11.900 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:11.900 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 17.9582ms
+2023-10-03 15:20:11.900 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:11.900 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:11.900 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:11.901 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=5 - - - 200 1247 text/json;+charset=utf-8 20.5154ms
+2023-10-03 15:20:15.099 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=4 - -
+2023-10-03 15:20:15.099 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:15.099 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:15.099 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.099 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:15.099 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:15.100 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:15.100 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.100 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:15.100 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:15.100 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:15.100 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:15.100 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:15.100 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:15.101 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:15.101 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:15.101 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:15.101 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:15.101 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.101 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.101 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:15.102 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:15.102 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:15.102 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:15.102 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.103 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.103 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:15.103 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.103 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:15.103 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.105 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:15.105 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:15.106 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:15.106 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.107 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.108 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:15.114 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:15.115 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:15.115 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.115 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.116 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:15.116 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:15.116 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.116 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.116 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:15.121 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.122 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:15.122 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.122 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.123 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:15.123 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:15.123 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:15.123 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:15.124 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 23.2288ms
+2023-10-03 15:20:15.124 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.124 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:15.124 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:15.124 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=4 - - - 200 915 text/json;+charset=utf-8 25.6956ms
+2023-10-03 15:20:15.867 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=3 - -
+2023-10-03 15:20:15.867 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:15.867 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:15.867 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.867 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:15.868 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:15.868 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:15.868 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.868 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:15.868 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:15.868 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:15.868 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:15.868 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:15.868 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:15.869 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:15.869 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:15.869 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:15.869 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:15.869 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.869 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.869 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:15.870 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:15.870 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:15.870 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:15.870 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:15.871 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.871 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.871 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:15.871 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:15.871 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:15.871 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:15.871 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.871 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.871 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:15.872 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:15.873 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:15.873 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:15.873 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:15.873 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.874 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.875 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:15.879 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:15.879 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:15.879 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.879 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.880 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:15.881 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:15.881 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.881 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.881 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:15.887 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:15.888 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.888 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.888 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.889 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.889 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:15.890 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:15.890 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.890 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:15.890 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:15.891 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:15.891 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:15.891 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:15.892 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 23.3611ms
+2023-10-03 15:20:15.892 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:15.892 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:15.892 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:15.893 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=3 - - - 200 688 text/json;+charset=utf-8 26.0139ms
+2023-10-03 15:20:17.031 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=3 - -
+2023-10-03 15:20:17.032 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:17.032 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:17.032 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:17.032 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:17.032 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:17.032 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:17.032 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:17.032 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:17.033 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:17.033 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:17.033 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:17.033 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:17.033 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:17.033 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:17.034 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:17.034 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:17.034 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:17.034 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:17.034 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:17.034 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:17.034 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:17.035 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:17.035 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:17.035 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:17.035 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:17.035 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:17.035 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:17.035 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:17.035 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:17.035 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:17.035 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:17.036 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:17.036 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:17.036 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:17.036 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:17.036 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:17.036 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:17.039 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:17.039 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:17.040 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:17.041 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:17.042 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:17.042 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:17.043 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:17.043 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.043 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.043 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:17.047 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:17.047 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:17.048 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.048 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.048 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:17.049 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:17.049 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.049 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.050 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:17.054 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:17.054 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:17.055 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:17.055 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:17.055 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:17.056 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:17.056 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:17.056 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.056 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:17.056 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:17.056 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:17.057 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:17.057 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:17.057 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 23.7524ms
+2023-10-03 15:20:17.057 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:17.057 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:17.057 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:17.057 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=3 - - - 200 664 text/json;+charset=utf-8 26.1799ms
+2023-10-03 15:20:18.848 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=3 - -
+2023-10-03 15:20:18.848 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:18.848 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:18.848 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:18.848 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:18.848 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:18.849 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:18.849 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:18.849 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:18.849 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:18.849 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:18.849 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:18.849 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:18.849 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:18.849 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:18.850 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:18.850 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:18.850 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:18.850 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:18.850 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:18.850 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:18.850 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:18.851 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:18.851 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:18.851 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:18.851 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:18.851 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:18.851 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:18.851 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:18.851 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:18.852 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:18.852 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:18.852 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:18.852 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:18.853 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:18.853 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:18.853 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:18.853 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:18.856 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:18.856 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:18.856 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:18.857 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:18.859 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:18.860 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:18.860 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:18.860 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.860 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.861 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:18.865 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:18.865 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:18.865 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.865 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.866 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:18.867 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:18.867 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.867 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.868 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:18.873 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:18.874 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:18.874 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:18.874 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:18.875 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:18.875 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:18.875 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:18.875 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.875 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:18.876 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:18.876 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:18.876 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:18.876 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:18.877 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 27.0576ms
+2023-10-03 15:20:18.877 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:18.877 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:18.877 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:18.877 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=1&pageSize=3 - - - 200 688 text/json;+charset=utf-8 29.2424ms
+2023-10-03 15:20:20.032 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=3 - -
+2023-10-03 15:20:20.032 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:20.032 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:20.032 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.032 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:20.033 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:20.033 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:20.033 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.033 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:20.033 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:20.033 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:20.033 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:20.033 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:20.034 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:20.034 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:20.034 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:20.034 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:20.034 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:20.035 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:20.035 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:20.035 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.035 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:20.035 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.036 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:20.036 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:20.036 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.036 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.036 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:20.036 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.036 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:20.036 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:20.037 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.040 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.040 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:20.041 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.045 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:20.046 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:20.046 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:20.047 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.048 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.048 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:20.053 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:20.053 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:20.053 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.053 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.054 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:20.055 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:20.055 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.055 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.055 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:20.060 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:20.060 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.060 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.060 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.060 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.061 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.061 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:20.061 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.061 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.061 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:20.061 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:20.061 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:20.062 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:20.062 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 28.2122ms
+2023-10-03 15:20:20.062 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.062 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:20.062 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:20.062 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=2&pageSize=3 - - - 200 664 text/json;+charset=utf-8 30.6012ms
+2023-10-03 15:20:20.698 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=3&pageSize=3 - -
+2023-10-03 15:20:20.698 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:20.698 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:20.698 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.698 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:20.699 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:20.699 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:20.699 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.699 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:20.699 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:20.699 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:20.699 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:20.699 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:20.700 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:20.700 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:20.700 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:20.700 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:20.700 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:20.700 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.700 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:20.701 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:20.701 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:20.701 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:20.701 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:20.701 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.702 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:20.702 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.702 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:20.702 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:20.703 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:20.704 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:20.704 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:20.704 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.705 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.706 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:20.710 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:20.710 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:20.710 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.710 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.711 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:20.711 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:20.711 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.711 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.712 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:20.716 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:20.717 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.717 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.718 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.718 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:20.718 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:20.719 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.719 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:20.719 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:20.720 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:20.720 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:20.720 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:20.721 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 21.5843ms
+2023-10-03 15:20:20.721 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:20.721 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:20.722 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:20.724 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=3&pageSize=3 - - - 200 622 text/json;+charset=utf-8 25.5716ms
+2023-10-03 15:20:32.348 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=4&pageSize=3 - -
+2023-10-03 15:20:32.348 +08:00 [DBG] 1 candidate(s) found for the request path '/api/School'
+2023-10-03 15:20:32.348 +08:00 [DBG] Endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)' with route pattern 'api/School' is valid for the request path '/api/School'
+2023-10-03 15:20:32.348 +08:00 [DBG] Request matched endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:32.348 +08:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-10-03 15:20:32.349 +08:00 [INF] CORS policy execution successful.
+2023-10-03 15:20:32.349 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 15:20:32.349 +08:00 [INF] Executing endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:32.349 +08:00 [INF] Route matched with {action = "GetSchools", controller = "School"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sustain.Models.SchoolDto]]] GetSchools(System.String, System.String, Int32, Int32) on controller Sustain.Controllers.SchoolController (contactsapp).
+2023-10-03 15:20:32.349 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 15:20:32.349 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 15:20:32.349 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 15:20:32.349 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 15:20:32.349 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 15:20:32.350 +08:00 [DBG] Executing controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:32.350 +08:00 [DBG] Executed controller factory for controller Sustain.Controllers.SchoolController (contactsapp)
+2023-10-03 15:20:32.350 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:32.350 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:32.350 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-10-03 15:20:32.350 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:32.350 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-10-03 15:20:32.351 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:32.351 +08:00 [DBG] Attempting to bind parameter 'searchQuery' of type 'System.String' using the name '' in request data ...
+2023-10-03 15:20:32.351 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Done attempting to bind parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Attempting to validate the bound parameter 'searchQuery' of type 'System.String' ...
+2023-10-03 15:20:32.351 +08:00 [DBG] Done attempting to validate the bound parameter 'searchQuery' of type 'System.String'.
+2023-10-03 15:20:32.351 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:32.352 +08:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-10-03 15:20:32.352 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:32.352 +08:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:32.352 +08:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-10-03 15:20:32.352 +08:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-10-03 15:20:32.352 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:32.352 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2023-10-03 15:20:32.352 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:32.352 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:32.353 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2023-10-03 15:20:32.353 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2023-10-03 15:20:32.354 +08:00 [INF] Entity Framework Core 6.0.8 initialized 'SustainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2023-10-03 15:20:32.355 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:32.355 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:32.355 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.357 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.357 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:32.362 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [School] AS [s]
+2023-10-03 15:20:32.362 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:32.362 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.362 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.363 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 15:20:32.363 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 15:20:32.363 +08:00 [DBG] Opening connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.363 +08:00 [DBG] Opened connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.364 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:32.369 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[SchoolId], [t].[SchoolLocation], [t].[SchoolName], [t].[SchoolTypeId], [s0].[SchoolTypeId], [m].[MeterId], [m].[MeterDescription], [m].[MeterName], [m].[MeterTypeId], [m].[SchoolId], [m].[UtilityAccountNumber], [s0].[TypeLongDescription], [s0].[TypeShortDescription]
+FROM (
+    SELECT [s].[SchoolId], [s].[SchoolLocation], [s].[SchoolName], [s].[SchoolTypeId]
+    FROM [School] AS [s]
+    ORDER BY [s].[SchoolName]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [SchoolType] AS [s0] ON [t].[SchoolTypeId] = [s0].[SchoolTypeId]
+LEFT JOIN [Meter] AS [m] ON [t].[SchoolId] = [m].[SchoolId]
+ORDER BY [t].[SchoolName], [t].[SchoolId], [s0].[SchoolTypeId]
+2023-10-03 15:20:32.370 +08:00 [DBG] Context 'SustainContext' started tracking 'School' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:32.370 +08:00 [DBG] Context 'SustainContext' started tracking 'SchoolType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:32.371 +08:00 [DBG] Context 'SustainContext' started tracking 'Meter' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 15:20:32.371 +08:00 [DBG] A data reader was disposed.
+2023-10-03 15:20:32.371 +08:00 [DBG] Closing connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.371 +08:00 [DBG] Closed connection to database 'sustainable' on server 'localhost'.
+2023-10-03 15:20:32.372 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-10-03 15:20:32.372 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2023-10-03 15:20:32.372 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2023-10-03 15:20:32.372 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sustain.Models.SchoolDto, contactsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-03 15:20:32.373 +08:00 [INF] Executed action Sustain.Controllers.SchoolController.GetSchools (contactsapp) in 23.2475ms
+2023-10-03 15:20:32.373 +08:00 [INF] Executed endpoint 'Sustain.Controllers.SchoolController.GetSchools (contactsapp)'
+2023-10-03 15:20:32.373 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" completed keep alive response.
+2023-10-03 15:20:32.373 +08:00 [DBG] 'SustainContext' disposed.
+2023-10-03 15:20:32.373 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/api/School?pageNumber=4&pageSize=3 - - - 200 402 text/json;+charset=utf-8 25.5726ms
+2023-10-03 15:20:55.640 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" received FIN.
+2023-10-03 15:20:55.641 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" disconnecting.
+2023-10-03 15:20:55.642 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" stopped.
+2023-10-03 15:20:55.642 +08:00 [DBG] Connection id "0HMU3S3R7MFQB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 15:22:43.033 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" disconnecting.
+2023-10-03 15:22:43.034 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" stopped.
+2023-10-03 15:22:43.035 +08:00 [DBG] Connection id "0HMU3S3R7MFQA" sending FIN because: "The Socket transport's send loop completed gracefully."

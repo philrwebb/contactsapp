@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sustain.DbContexts;
 
@@ -11,9 +12,10 @@ using Sustain.DbContexts;
 namespace contactsapp.Migrations
 {
     [DbContext(typeof(SustainContext))]
-    partial class SustainContextModelSnapshot : ModelSnapshot
+    [Migration("20231008070632_metermig11")]
+    partial class metermig11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,25 +55,11 @@ namespace contactsapp.Migrations
 
             modelBuilder.Entity("Sustain.Entities.Meter", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("MeterId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<DateTime>("LastModifiedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("LastModifiedBy")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MeterId"), 1L, 1);
 
                     b.Property<string>("MeterDescription")
                         .HasMaxLength(255)
@@ -90,10 +78,7 @@ namespace contactsapp.Migrations
                     b.Property<string>("UtilityAccountNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("active")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
+                    b.HasKey("MeterId");
 
                     b.HasIndex("MeterTypeId");
 

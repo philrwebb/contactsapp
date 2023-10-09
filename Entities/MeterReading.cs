@@ -4,11 +4,8 @@ using System;
 
 namespace Sustain.Entities
 {
-    public class MeterReading
+    public class MeterReading : PersistableBase
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int MeterReadingId { get; set; }
         public DateTime ReadingDatetime { get; set; }
         public double ReadingValue { get; set; }
         [ForeignKey("Meter")]

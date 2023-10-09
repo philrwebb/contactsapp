@@ -12,5 +12,5 @@ public interface IMeterRepository
 
     Task<Meter> CreateMeterAsync(Meter meter);
 
-    Task<IEnumerable<Meter>> GetMetersForSchoolAsync(int schoolId);
+    Task<(IEnumerable<Meter>, PaginationMetadata)> GetMetersForSchoolAsync(int schoolId,string? name, string? searchQuery, int pageNumber, int pageSize);
 }
